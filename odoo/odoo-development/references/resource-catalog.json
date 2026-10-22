@@ -1,0 +1,3991 @@
+{
+  "schema_version": 1,
+  "discovered_at": "2026-10-22",
+  "scope": "Unique fixed-version documentation links discovered in retrieved page bodies; not a complete site crawl or a list of pages read.",
+  "resources": [
+    {
+      "title": "sample of a PostgreSQL database",
+      "url": "https://www.odoo.com/documentation/20.0/_downloads/6a43d52743cdb4f58e92cdf08131b012/database_import_test.sql"
+    },
+    {
+      "title": "File for some quotations",
+      "url": "https://www.odoo.com/documentation/20.0/_downloads/7280c68e925fcb1d999362c361612a8c/o2m-quotations-order-lines.csv"
+    },
+    {
+      "title": "here",
+      "url": "https://www.odoo.com/documentation/20.0/_downloads/76a7a8244cb31658cafdcea576c90148/implementation.py"
+    },
+    {
+      "title": "Purchase orders with their respective purchase order lines",
+      "url": "https://www.odoo.com/documentation/20.0/_downloads/7817419a03a0b986e8763e7876ef2e71/o2m-purchase-order-lines.csv"
+    },
+    {
+      "title": "CSV file for Manufacturer, Retailer",
+      "url": "https://www.odoo.com/documentation/20.0/_downloads/7ecb697aadad7d5a24b8f9a4a375cf89/m2m-customers-tags.csv"
+    },
+    {
+      "title": "Customers and their respective contacts",
+      "url": "https://www.odoo.com/documentation/20.0/_downloads/7f9901950e3b72bfb506d30c9a60e318/o2m-customers-contacts.csv"
+    },
+    {
+      "title": "CSV file for categories",
+      "url": "https://www.odoo.com/documentation/20.0/_downloads/b00ebfcb154b6770ed0398d1a9aeb3bd/External_id_3rd_party_application_product_categories.csv"
+    },
+    {
+      "title": "download this module structure template",
+      "url": "https://www.odoo.com/documentation/20.0/_downloads/b7e79386bbb74e050fc796a54e8233f3/my_module.zip"
+    },
+    {
+      "title": "CSV file for Products",
+      "url": "https://www.odoo.com/documentation/20.0/_downloads/c3355b134fea5ce15f88558701029667/External_id_3rd_party_application_products.csv"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/administration.html"
+    },
+    {
+      "title": "Installing Odoo",
+      "url": "https://www.odoo.com/documentation/20.0/administration/deployment/install.html "
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/administration/hosting.html"
+    },
+    {
+      "title": "Bugfix updates",
+      "url": "https://www.odoo.com/documentation/20.0/administration/maintain/update.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/administration/mobile.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/administration/neutralized_database.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_accounts.html"
+    },
+    {
+      "title": "duplicate\ndatabase",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_online.html"
+    },
+    {
+      "title": "Odoo.sh",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_sh.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_sh/advanced.html"
+    },
+    {
+      "title": "additional Python dependencies",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_sh/create_module.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_sh/getting_started.html"
+    },
+    {
+      "title": "Branches",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_sh/getting_started/branches.html"
+    },
+    {
+      "title": "the builds dropdown menu",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_sh/getting_started/builds.html"
+    },
+    {
+      "title": "create an Odoo.sh project",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_sh/getting_started/create.html"
+    },
+    {
+      "title": "editor",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_sh/getting_started/online_editor.html"
+    },
+    {
+      "title": "configure a deploy key in your project and repository\nsettings",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_sh/getting_started/settings.html"
+    },
+    {
+      "title": "Odoo.sh: The Odoo Cloud Platform",
+      "url": "https://www.odoo.com/documentation/20.0/administration/odoo_sh/overview/introduction.html"
+    },
+    {
+      "title": "Odoo On-premise",
+      "url": "https://www.odoo.com/documentation/20.0/administration/on_premise.html"
+    },
+    {
+      "title": "On Windows",
+      "url": "https://www.odoo.com/documentation/20.0/administration/on_premise/community_to_enterprise.html"
+    },
+    {
+      "title": "3",
+      "url": "https://www.odoo.com/documentation/20.0/administration/on_premise/deploy.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/administration/on_premise/email_gateway.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/administration/on_premise/geo_ip.html"
+    },
+    {
+      "title": "packaged installers",
+      "url": "https://www.odoo.com/documentation/20.0/administration/on_premise/packages.html"
+    },
+    {
+      "title": "Running Odoo",
+      "url": "https://www.odoo.com/documentation/20.0/administration/on_premise/source.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/administration/on_premise/update.html"
+    },
+    {
+      "title": "supported version",
+      "url": "https://www.odoo.com/documentation/20.0/administration/standard_extended_support.html"
+    },
+    {
+      "title": "Upgrade documentation",
+      "url": "https://www.odoo.com/documentation/20.0/administration/upgrade.html"
+    },
+    {
+      "title": "General settings",
+      "url": "https://www.odoo.com/documentation/20.0/applications.html"
+    },
+    {
+      "title": "Add or remove a product from a record form",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials.html"
+    },
+    {
+      "title": "Next Activity section",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/activities.html"
+    },
+    {
+      "title": "contacts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/contacts.html"
+    },
+    {
+      "title": "Deduplicate contacts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/contacts/merge.html"
+    },
+    {
+      "title": "imported",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/export_import_data.html"
+    },
+    {
+      "title": "powerbox",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/html_editor.html"
+    },
+    {
+      "title": "In-app purchase (IAP)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/in_app_purchase.html"
+    },
+    {
+      "title": "keyboard shortcut",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/keyboard_shortcuts.html"
+    },
+    {
+      "title": "Catalog",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/product_catalog.html"
+    },
+    {
+      "title": "Property fields",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/property_fields.html"
+    },
+    {
+      "title": "Using the graph view",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/reporting.html"
+    },
+    {
+      "title": "Share search results",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/search.html"
+    },
+    {
+      "title": "Assign stages to a team",
+      "url": "https://www.odoo.com/documentation/20.0/applications/essentials/stages.html"
+    },
+    {
+      "title": "Assignation rules",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance.html"
+    },
+    {
+      "title": "Branches accounting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting.html"
+    },
+    {
+      "title": "Bank and cash accounts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/bank.html"
+    },
+    {
+      "title": "synchronizing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/bank/bank_synchronization.html"
+    },
+    {
+      "title": "Basiq",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/bank/bank_synchronization/basiq.html"
+    },
+    {
+      "title": "Ponto",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/bank/bank_synchronization/ponto.html"
+    },
+    {
+      "title": "Manage a bank account in a foreign currency",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/bank/foreign_currency.html"
+    },
+    {
+      "title": "Internal transfers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/bank/internal_transfers.html"
+    },
+    {
+      "title": "Loans management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/bank/loans.html"
+    },
+    {
+      "title": "reconciling",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/bank/reconciliation.html"
+    },
+    {
+      "title": "Reconciliation models",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/bank/reconciliation_models.html"
+    },
+    {
+      "title": "bank transaction",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/bank/transactions.html"
+    },
+    {
+      "title": "invoices",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices.html"
+    },
+    {
+      "title": "Cash discounts and tax reduction",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/cash_discounts.html"
+    },
+    {
+      "title": "Cash rounding",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/cash_rounding.html"
+    },
+    {
+      "title": "Credit notes and refunds",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/credit_notes.html"
+    },
+    {
+      "title": "Delivery and invoice addresses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/customer_addresses.html"
+    },
+    {
+      "title": "Deferred revenues",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/deferred_revenues.html"
+    },
+    {
+      "title": "contact verification process",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/electronic_invoicing.html"
+    },
+    {
+      "title": "EPC QR codes",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/epc_qr_code.html"
+    },
+    {
+      "title": "Incoterms",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/incoterms.html"
+    },
+    {
+      "title": "Invoicing processes",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/overview.html"
+    },
+    {
+      "title": "payment terms",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/payment_terms.html"
+    },
+    {
+      "title": "Invoice sequence",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/sequence.html"
+    },
+    {
+      "title": "Snailmail",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/snailmail.html"
+    },
+    {
+      "title": "Default terms and conditions (T&C)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/customer_invoices/terms_conditions.html"
+    },
+    {
+      "title": "German Tax Accounting Standards: Odoo’s guide to GoBD Compliance",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/fiscal_localizations/localizations/germany.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/get_started.html"
+    },
+    {
+      "title": "Average price on returned goods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/get_started/avg_price_valuation.html"
+    },
+    {
+      "title": "charts of accounts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/get_started/chart_of_accounts.html"
+    },
+    {
+      "title": "Accounting cheat sheet",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/get_started/cheat_sheet.html"
+    },
+    {
+      "title": "Consolidation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/get_started/consolidation.html"
+    },
+    {
+      "title": "Inventory valuation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/get_started/inventory_valuation.html"
+    },
+    {
+      "title": "outstanding accounts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/get_started/journals.html"
+    },
+    {
+      "title": "Currency",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/get_started/multi_currency.html"
+    },
+    {
+      "title": "Tax units",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/get_started/tax_units.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/payments.html"
+    },
+    {
+      "title": "Batch payments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/payments/batch.html"
+    },
+    {
+      "title": "Follow-up on invoices",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/payments/follow_up.html"
+    },
+    {
+      "title": "Pay by checks",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/payments/pay_checks.html"
+    },
+    {
+      "title": "SEPA payments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/payments/sepa_payments.html"
+    },
+    {
+      "title": "reports",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting.html"
+    },
+    {
+      "title": "Analytic accounting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting/analytic_accounting.html"
+    },
+    {
+      "title": "Annual/Audit report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting/annual-report.html"
+    },
+    {
+      "title": "Budgets",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting/budget.html"
+    },
+    {
+      "title": "Custom reports",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting/customize.html"
+    },
+    {
+      "title": "Secure posted entries with hash",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting/data_inalterability.html"
+    },
+    {
+      "title": "Intrastat",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting/intrastat.html"
+    },
+    {
+      "title": "Silverfin integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting/silverfin.html"
+    },
+    {
+      "title": "Tax carryover",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting/tax_carryover.html"
+    },
+    {
+      "title": "Lock dates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting/tax_returns.html"
+    },
+    {
+      "title": "Fiscal year end date",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/reporting/year_end.html"
+    },
+    {
+      "title": "Taxes",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes.html"
+    },
+    {
+      "title": "B2B (tax excluded) and B2C (tax included) pricing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes/B2B_B2C.html"
+    },
+    {
+      "title": "Avalara integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes/avalara.html"
+    },
+    {
+      "title": "Avalara (Avatax) portal",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes/avalara/avalara_portal.html"
+    },
+    {
+      "title": "AvaTax use",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes/avalara/avatax_use.html"
+    },
+    {
+      "title": "Cash basis taxes",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes/cash_basis.html"
+    },
+    {
+      "title": "EU intra-community distance selling",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes/eu_distance_selling.html"
+    },
+    {
+      "title": "Fiscal positions (tax and account mapping)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes/fiscal_positions.html"
+    },
+    {
+      "title": "Withholding taxes",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes/retention.html"
+    },
+    {
+      "title": "Tax computation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes/tax_computation.html"
+    },
+    {
+      "title": "VAT numbers verification (VIES)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/taxes/vat_verification.html"
+    },
+    {
+      "title": "vendor bill",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/vendor_bills.html"
+    },
+    {
+      "title": "Non-current assets and fixed assets",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/vendor_bills/assets.html"
+    },
+    {
+      "title": "Deferred expenses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/vendor_bills/deferred_expenses.html"
+    },
+    {
+      "title": "Document digitization",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/vendor_bills/invoice_digitization.html"
+    },
+    {
+      "title": "Vendor bill sequence",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/accounting/vendor_bills/sequence.html"
+    },
+    {
+      "title": "Initiatives",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/esg.html"
+    },
+    {
+      "title": "Expenses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/expenses.html"
+    },
+    {
+      "title": "Refuse expenses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/expenses/approve_expenses.html"
+    },
+    {
+      "title": "Temporary card pauses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/expenses/expense_cards.html"
+    },
+    {
+      "title": "Invoicing section",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/expenses/expense_categories.html"
+    },
+    {
+      "title": "View expenses by category",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/expenses/expenses_analysis.html"
+    },
+    {
+      "title": "Email expenses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/expenses/log_expenses.html"
+    },
+    {
+      "title": "Post multiple expenses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/expenses/post_expenses.html"
+    },
+    {
+      "title": "Reimburse expenses via cash, check, or direct deposit",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/expenses/reimburse.html"
+    },
+    {
+      "title": "Invoice expenses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/expenses/reinvoice_expenses.html"
+    },
+    {
+      "title": "Submit expense records",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/expenses/submit_expenses.html"
+    },
+    {
+      "title": "fiscal localization packages",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations.html"
+    },
+    {
+      "title": "Argentina",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/argentina.html"
+    },
+    {
+      "title": "Australia",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/australia.html"
+    },
+    {
+      "title": "Austria",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/austria.html"
+    },
+    {
+      "title": "Belgium",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/belgium.html"
+    },
+    {
+      "title": "Brazil",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/brazil.html"
+    },
+    {
+      "title": "Canada",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/canada.html"
+    },
+    {
+      "title": "Chile",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/chile.html"
+    },
+    {
+      "title": "Colombia",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/colombia.html"
+    },
+    {
+      "title": "Croatia",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/croatia.html"
+    },
+    {
+      "title": "Denmark",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/denmark.html"
+    },
+    {
+      "title": "Dominican Republic",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/dominican_republic.html"
+    },
+    {
+      "title": "Ecuador",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/ecuador.html"
+    },
+    {
+      "title": "Egypt",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/egypt.html"
+    },
+    {
+      "title": "France",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/france.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/germany.html"
+    },
+    {
+      "title": "Guatemala",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/guatemala.html"
+    },
+    {
+      "title": "Hong Kong",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/hong_kong.html"
+    },
+    {
+      "title": "Hungary",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/hungary.html"
+    },
+    {
+      "title": "India",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/india.html"
+    },
+    {
+      "title": "Indonesia",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/indonesia.html"
+    },
+    {
+      "title": "Italy",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/italy.html"
+    },
+    {
+      "title": "Jordan",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/jordan.html"
+    },
+    {
+      "title": "Kenya",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/kenya.html"
+    },
+    {
+      "title": "Luxembourg",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/luxembourg.html"
+    },
+    {
+      "title": "Malaysia",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/malaysia.html"
+    },
+    {
+      "title": "Mexico",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/mexico.html"
+    },
+    {
+      "title": "Netherlands",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/netherlands.html"
+    },
+    {
+      "title": "New Zealand",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/new_zealand.html"
+    },
+    {
+      "title": "Oman",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/oman.html"
+    },
+    {
+      "title": "Peru",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/peru.html"
+    },
+    {
+      "title": "Philippines",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/philippines.html"
+    },
+    {
+      "title": "Poland",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/poland.html"
+    },
+    {
+      "title": "Romania",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/romania.html"
+    },
+    {
+      "title": "Saudi Arabia",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/saudi_arabia.html"
+    },
+    {
+      "title": "Singapore",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/singapore.html"
+    },
+    {
+      "title": "Spain",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/spain.html"
+    },
+    {
+      "title": "Switzerland",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/switzerland.html"
+    },
+    {
+      "title": "Taiwan",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/taiwan.html"
+    },
+    {
+      "title": "Thailand",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/thailand.html"
+    },
+    {
+      "title": "Türkiye",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/turkiye.html"
+    },
+    {
+      "title": "United Arab Emirates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/united_arab_emirates.html"
+    },
+    {
+      "title": "United Kingdom",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/united_kingdom.html"
+    },
+    {
+      "title": "United States",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/united_states.html"
+    },
+    {
+      "title": "Uruguay",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/uruguay.html"
+    },
+    {
+      "title": "Uzbekistan",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/uzbekistan.html"
+    },
+    {
+      "title": "Vietnam",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/fiscal_localizations/vietnam.html"
+    },
+    {
+      "title": "Online payments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/adyen.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/amazon_payment_services.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/asiapay.html"
+    },
+    {
+      "title": "Import into Odoo",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/authorize.html"
+    },
+    {
+      "title": "Wire Transfer",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/bank_payments.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/buckaroo.html"
+    },
+    {
+      "title": "Transaction state",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/demo.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/dpo.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/ecpay.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/flutterwave.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/iyzico.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/mercado_pago.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/mollie.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/nuvei.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/paymob.html"
+    },
+    {
+      "title": "Testing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/paypal.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/payu.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/razorpay.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/redsys.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/stripe.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/tosspayments.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/worldline.html"
+    },
+    {
+      "title": "Supported payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/finance/payment_providers/xendit.html"
+    },
+    {
+      "title": "Offline mode",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general.html"
+    },
+    {
+      "title": "update the app list",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/apps_modules.html"
+    },
+    {
+      "title": "company record",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/companies.html"
+    },
+    {
+      "title": "Digest emails",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/companies/digest_emails.html"
+    },
+    {
+      "title": "Email templates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/companies/email_template.html"
+    },
+    {
+      "title": "Multi-company",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/companies/multi_company.html"
+    },
+    {
+      "title": "developer mode",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/developer_mode.html"
+    },
+    {
+      "title": "email",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/email_communication.html"
+    },
+    {
+      "title": "Configure incoming email server",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/email_communication/azure_oauth.html"
+    },
+    {
+      "title": "SPF, DKIM and DMARC documentation of common providers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/email_communication/email_domain.html"
+    },
+    {
+      "title": "Local-part based incoming detection",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/email_communication/email_servers_inbound.html"
+    },
+    {
+      "title": "Using a unique email address for all outgoing emails",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/email_communication/email_servers_outbound.html"
+    },
+    {
+      "title": "Information for Odoo Support",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/email_communication/faq.html"
+    },
+    {
+      "title": "Application Type",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/email_communication/google_oauth.html"
+    },
+    {
+      "title": "Set up in Odoo",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/email_communication/mailjet_api.html"
+    },
+    {
+      "title": "Integrations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/integrations.html"
+    },
+    {
+      "title": "Odoo configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/integrations/address_autocomplete.html"
+    },
+    {
+      "title": "Odoo configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/integrations/cloud_storage.html"
+    },
+    {
+      "title": "Map routes",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/integrations/geolocation.html"
+    },
+    {
+      "title": "Translate chatter",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/integrations/google_translate.html"
+    },
+    {
+      "title": "Create a ticket",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/integrations/mail_plugins.html"
+    },
+    {
+      "title": "Connect an Odoo database",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/integrations/mail_plugins/gmail.html"
+    },
+    {
+      "title": "Connect an Odoo database",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/integrations/mail_plugins/outlook.html"
+    },
+    {
+      "title": "Unsplash",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/integrations/unsplash.html"
+    },
+    {
+      "title": "IoT Boxes (MES)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot.html"
+    },
+    {
+      "title": "HTTPS certificate",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/connect.html"
+    },
+    {
+      "title": "Devices",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/devices.html"
+    },
+    {
+      "title": "Link camera to a work center in the Manufacturing app",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/devices/camera.html"
+    },
+    {
+      "title": "Link a footswitch to a work center in the Odoo Manufacturing app",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/devices/footswitch.html"
+    },
+    {
+      "title": "Link a measurement tool to a work center in the Manufacturing app",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/devices/measurement_tool.html"
+    },
+    {
+      "title": "The barcode scanner processes barcode characters individually",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/devices/printer.html"
+    },
+    {
+      "title": "Ariva S scales",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/devices/scale.html"
+    },
+    {
+      "title": "Connection",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/devices/screen.html"
+    },
+    {
+      "title": "IoT box SSH connection",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/iot_advanced/ssh_connect.html"
+    },
+    {
+      "title": "Is the IoT Box down?",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/iot_advanced/troubleshooting.html"
+    },
+    {
+      "title": "IoT system updates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/iot_advanced/updating_iot.html"
+    },
+    {
+      "title": "IoT box homepage",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/iot_box.html"
+    },
+    {
+      "title": "Windows virtual IoT uninstall",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/iot/windows_iot.html"
+    },
+    {
+      "title": "Disable offline mode for specific views",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/offline_mode.html"
+    },
+    {
+      "title": "individual users",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users.html"
+    },
+    {
+      "title": "Enforce two-factor authentication",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users/2fa.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users/access_rights.html"
+    },
+    {
+      "title": "User experience flows",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users/azure.html"
+    },
+    {
+      "title": "Odoo setup",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users/facebook.html"
+    },
+    {
+      "title": "Log in to Odoo with Google",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users/google.html"
+    },
+    {
+      "title": "Change another user’s language",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users/language.html"
+    },
+    {
+      "title": "LDAP authentication",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users/ldap.html"
+    },
+    {
+      "title": "User portals",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users/user_portals.html"
+    },
+    {
+      "title": "Revoking portal access",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users/user_portals/portal_access.html"
+    },
+    {
+      "title": "Update passwords",
+      "url": "https://www.odoo.com/documentation/20.0/applications/general/users/user_portals/updating_portal_info.html"
+    },
+    {
+      "title": "Today’s Orders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr.html"
+    },
+    {
+      "title": "Appraisals",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/appraisals.html"
+    },
+    {
+      "title": "New 360 feedback",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/appraisals/360.html"
+    },
+    {
+      "title": "Appraisal analysis",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/appraisals/appraisal_analysis.html"
+    },
+    {
+      "title": "Create appraisal templates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/appraisals/appraisal_templates.html"
+    },
+    {
+      "title": "Completed employee goals",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/appraisals/goals.html"
+    },
+    {
+      "title": "Provide a final rating",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/appraisals/new_appraisals.html"
+    },
+    {
+      "title": "Manually schedule an appraisal",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/appraisals/schedule_appraisals.html"
+    },
+    {
+      "title": "Use case: Assess highest improvement",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/appraisals/skills_evolution.html"
+    },
+    {
+      "title": "Modes",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances.html"
+    },
+    {
+      "title": "Attendance errors",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances/attendance_logs.html"
+    },
+    {
+      "title": "RFID token",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances/attendance_onboarding.html"
+    },
+    {
+      "title": "Use case: absenteeism",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances/attendance_reporting.html"
+    },
+    {
+      "title": "Process transactions",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances/biotime_integration.html"
+    },
+    {
+      "title": "check in",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances/check_in_check_out.html"
+    },
+    {
+      "title": "RFID key fob readers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances/hardware.html"
+    },
+    {
+      "title": "Confirmation message",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances/kiosks.html"
+    },
+    {
+      "title": "Create attendance records",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances/management.html"
+    },
+    {
+      "title": "Non-working days rule",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances/overtime.html"
+    },
+    {
+      "title": "Partial time off day missing attendance records",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/attendances/time_off_ledger.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees.html"
+    },
+    {
+      "title": "Badges",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/badges.html"
+    },
+    {
+      "title": "Certifications",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/certifications.html"
+    },
+    {
+      "title": "Departments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/departments.html"
+    },
+    {
+      "title": "Equipment",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/equipment.html"
+    },
+    {
+      "title": "Learning",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/learning.html"
+    },
+    {
+      "title": "Working Hours defined for the employee",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/new_employee.html"
+    },
+    {
+      "title": "Offboarding",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/offboarding.html"
+    },
+    {
+      "title": "Onboarding",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/onboarding.html"
+    },
+    {
+      "title": "Skills inventory",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/skills_inventory.html"
+    },
+    {
+      "title": "Training attendances",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/training_attendances.html"
+    },
+    {
+      "title": "Working hours",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/employees/working_hours.html"
+    },
+    {
+      "title": "Fleet",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/fleet.html"
+    },
+    {
+      "title": "Manage accident repairs",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/fleet/accidents.html"
+    },
+    {
+      "title": "Detailed comparison",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/fleet/cost_analysis.html"
+    },
+    {
+      "title": "Add a new model category",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/fleet/models.html"
+    },
+    {
+      "title": "Note tab",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/fleet/new_vehicle.html"
+    },
+    {
+      "title": "Total odometer values",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/fleet/odometers.html"
+    },
+    {
+      "title": "View services",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/fleet/service.html"
+    },
+    {
+      "title": "Kiosk setup",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/frontdesk.html"
+    },
+    {
+      "title": "Check out",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/frontdesk/visitors.html"
+    },
+    {
+      "title": "Locations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/lunch.html"
+    },
+    {
+      "title": "Control Vendors",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/lunch/management.html"
+    },
+    {
+      "title": "My Account",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/lunch/orders.html"
+    },
+    {
+      "title": "Product categories",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/lunch/products.html"
+    },
+    {
+      "title": "Control Accounts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/lunch/user-accounts.html"
+    },
+    {
+      "title": "Add extras",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/lunch/vendors.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll.html"
+    },
+    {
+      "title": "Commissions",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/commissions.html"
+    },
+    {
+      "title": "Contracts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/contracts.html"
+    },
+    {
+      "title": "Headcount report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/headcount.html"
+    },
+    {
+      "title": "Pay runs",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/pay_runs.html"
+    },
+    {
+      "title": "Payroll localizations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations.html"
+    },
+    {
+      "title": "Australia",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/australia.html"
+    },
+    {
+      "title": "Belgium",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/belgium.html"
+    },
+    {
+      "title": "Egypt",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/egypt.html"
+    },
+    {
+      "title": "Employment Hero Payroll",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/employment_hero.html"
+    },
+    {
+      "title": "Hong Kong",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/hong_kong.html"
+    },
+    {
+      "title": "India",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/india.html"
+    },
+    {
+      "title": "Jordan",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/jordan.html"
+    },
+    {
+      "title": "Kenya",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/kenya.html"
+    },
+    {
+      "title": "Mexico",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/mexico.html"
+    },
+    {
+      "title": "Oman",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/oman.html"
+    },
+    {
+      "title": "Saudi Arabia",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/saudi_arabia.html"
+    },
+    {
+      "title": "Türkiye",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/turkey.html"
+    },
+    {
+      "title": "United Arab Emirates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/united_arab_emirates.html"
+    },
+    {
+      "title": "United States",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payroll_localizations/united_states.html"
+    },
+    {
+      "title": "Payslips",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/payslips.html"
+    },
+    {
+      "title": "Salaries",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/salaries.html"
+    },
+    {
+      "title": "Salary adjustments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/salary_attachments.html"
+    },
+    {
+      "title": "Salary rules",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/salary_rules.html"
+    },
+    {
+      "title": "Time off to report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/time_off_to_report.html"
+    },
+    {
+      "title": "Work entries",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/work_entries.html"
+    },
+    {
+      "title": "Work entry analysis",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/work_entry_analysis.html"
+    },
+    {
+      "title": "Working schedules",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/payroll/working_schedules.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment.html"
+    },
+    {
+      "title": "Add applicants",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/add_applicants.html"
+    },
+    {
+      "title": "Application analysis",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/application_analysis.html"
+    },
+    {
+      "title": "Hiring velocity",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/hiring_velocity.html"
+    },
+    {
+      "title": "Job positions",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/new_job.html"
+    },
+    {
+      "title": "Offer job positions",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/offer_job_positions.html"
+    },
+    {
+      "title": "Post job positions",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/post_job.html"
+    },
+    {
+      "title": "Recruitment flow",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/recruitment_flow.html"
+    },
+    {
+      "title": "Refuse applicants",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/refuse_applicant.html"
+    },
+    {
+      "title": "Schedule interviews",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/schedule_interviews.html"
+    },
+    {
+      "title": "Source analysis",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/source_analysis.html"
+    },
+    {
+      "title": "Team performance",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/recruitment/team_performance.html"
+    },
+    {
+      "title": "Modify levels",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/referrals.html"
+    },
+    {
+      "title": "Dismiss an alert",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/referrals/alerts.html"
+    },
+    {
+      "title": "Points",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/referrals/points.html"
+    },
+    {
+      "title": "Use case: most effective referrers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/referrals/points_report.html"
+    },
+    {
+      "title": "Use case: hired referrals",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/referrals/referral_analysis.html"
+    },
+    {
+      "title": "Redeem rewards",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/referrals/rewards.html"
+    },
+    {
+      "title": "Reward analysis",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/referrals/rewards_report.html"
+    },
+    {
+      "title": "Share job list",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/referrals/share_jobs.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/time_off.html"
+    },
+    {
+      "title": "Accrual plans",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/time_off/accrual_plans.html"
+    },
+    {
+      "title": "Allocations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/time_off/allocations.html"
+    },
+    {
+      "title": "Management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/time_off/management.html"
+    },
+    {
+      "title": "Mandatory days",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/time_off/mandatory_days.html"
+    },
+    {
+      "title": "My time",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/time_off/my_time.html"
+    },
+    {
+      "title": "Public holidays",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/time_off/public_holidays.html"
+    },
+    {
+      "title": "Reporting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/time_off/reporting.html"
+    },
+    {
+      "title": "Request time off",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/time_off/request_time_off.html"
+    },
+    {
+      "title": "Time off types",
+      "url": "https://www.odoo.com/documentation/20.0/applications/hr/time_off/time_off_types.html"
+    },
+    {
+      "title": "Create a repair order",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp.html"
+    },
+    {
+      "title": "Barcode",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode.html"
+    },
+    {
+      "title": "Finalizing an inventory count",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/operations/adjustments.html"
+    },
+    {
+      "title": "Default nomenclature list",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/operations/barcode_nomenclature.html"
+    },
+    {
+      "title": "GS1 nomenclature list",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/operations/gs1_nomenclature.html"
+    },
+    {
+      "title": "Verify product moves",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/operations/gs1_usage.html"
+    },
+    {
+      "title": "Process the batch",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/operations/process_transfers.html"
+    },
+    {
+      "title": "Validating the delivery",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/operations/receipts_deliveries.html"
+    },
+    {
+      "title": "Writing EPCs to RFID tags",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/operations/retrieve_epcs.html"
+    },
+    {
+      "title": "Counting inventory",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/operations/scan_rfid.html"
+    },
+    {
+      "title": "Create a transfer from scratch",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/operations/transfers_scratch.html"
+    },
+    {
+      "title": "Usage",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/setup/barcodelookup.html"
+    },
+    {
+      "title": "NETUM devices",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/setup/device_troubleshooting.html"
+    },
+    {
+      "title": "Cipherlab mobile computer scanner",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/setup/hardware.html"
+    },
+    {
+      "title": "Work order commands",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/setup/operation_types.html"
+    },
+    {
+      "title": "Limitations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/setup/rfid.html"
+    },
+    {
+      "title": "Disable lot and serial numbers for a receipt",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/setup/serial_numbers_lots.html"
+    },
+    {
+      "title": "Print location barcodes",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/barcode/setup/software.html"
+    },
+    {
+      "title": "Inventory valuation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory.html"
+    },
+    {
+      "title": "Valuation cheat sheet",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/inventory_valuation/cheat_sheet.html"
+    },
+    {
+      "title": "Landed costs",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/inventory_valuation/landed_costs.html"
+    },
+    {
+      "title": "Valuation of stock movements and inventory operations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/inventory_valuation/operations_valuation.html"
+    },
+    {
+      "title": "Account for scrapped goods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/inventory_valuation/scrapped_inventory_valuation.html"
+    },
+    {
+      "title": "Valuation by lots/serial numbers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/inventory_valuation/valuation_by_lots.html"
+    },
+    {
+      "title": "Configure product",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/configure.html"
+    },
+    {
+      "title": "Pack-in-pack",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/configure/pack_in_pack.html"
+    },
+    {
+      "title": "Packages",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/configure/package.html"
+    },
+    {
+      "title": "Packaging",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/configure/packaging.html"
+    },
+    {
+      "title": "Product type",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/configure/type.html"
+    },
+    {
+      "title": "Units of measure",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/configure/uom.html"
+    },
+    {
+      "title": "Product tracking",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/product_tracking.html"
+    },
+    {
+      "title": "Expiration dates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.html"
+    },
+    {
+      "title": "Lot numbers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/product_tracking/lots.html"
+    },
+    {
+      "title": "Reassign lot/serial numbers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/product_tracking/reassign.html"
+    },
+    {
+      "title": "Serial numbers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.html"
+    },
+    {
+      "title": "Inbound and outbound flows",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations.html"
+    },
+    {
+      "title": "Three-step delivery",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.html"
+    },
+    {
+      "title": "Dropshipping",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/dropshipping.html"
+    },
+    {
+      "title": "Consignment: buy and sell stock without owning it",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/owned_stock.html"
+    },
+    {
+      "title": "Putaway rules",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/putaway.html"
+    },
+    {
+      "title": "One-step receipt and delivery",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.html"
+    },
+    {
+      "title": "Two-step receipt and delivery",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.html"
+    },
+    {
+      "title": "Three-step receipt",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_three_steps.html"
+    },
+    {
+      "title": "Storage categories",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category.html"
+    },
+    {
+      "title": "Routes and push/pull rules",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.html"
+    },
+    {
+      "title": "Batch picking",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.html"
+    },
+    {
+      "title": "Cluster picking",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/cluster.html"
+    },
+    {
+      "title": "Wave transfers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/wave.html"
+    },
+    {
+      "title": "Removal strategies",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.html"
+    },
+    {
+      "title": "Closest location removal",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/closest_location.html"
+    },
+    {
+      "title": "FEFO removal",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fefo.html"
+    },
+    {
+      "title": "FIFO removal",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.html"
+    },
+    {
+      "title": "Least packages removal",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/least_packages.html"
+    },
+    {
+      "title": "LIFO removal",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/lifo.html"
+    },
+    {
+      "title": "Reservation methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods.html"
+    },
+    {
+      "title": "At confirmation reservation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/at_confirmation.html"
+    },
+    {
+      "title": "Before scheduled date reservation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date.html"
+    },
+    {
+      "title": "Manual reservation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/manually.html"
+    },
+    {
+      "title": "Delivery methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.html"
+    },
+    {
+      "title": "Bpost integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/bpost.html"
+    },
+    {
+      "title": "How to cancel a shipping request to a shipper?",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel.html"
+    },
+    {
+      "title": "DHL integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.html"
+    },
+    {
+      "title": "Dispatch management system",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.html"
+    },
+    {
+      "title": "EasyPost integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/easypost.html"
+    },
+    {
+      "title": "Envia.com integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/envia_shipping.html"
+    },
+    {
+      "title": "FedEx integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/fedex.html"
+    },
+    {
+      "title": "Shipping cost invoicing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.html"
+    },
+    {
+      "title": "Change shipping label size",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/label_type.html"
+    },
+    {
+      "title": "Print shipping labels",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.html"
+    },
+    {
+      "title": "Multi-package shipments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack.html"
+    },
+    {
+      "title": "Add a new delivery method",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/new_delivery_method.html"
+    },
+    {
+      "title": "Printable delivery PDFs",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation.html"
+    },
+    {
+      "title": "Sendcloud integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.html"
+    },
+    {
+      "title": "Shiprocket integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/shiprocket.html"
+    },
+    {
+      "title": "ShipStation integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/shipstation.html"
+    },
+    {
+      "title": "Starshipit shipping",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/starshipit_shipping.html"
+    },
+    {
+      "title": "Third-party shipping carriers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.html"
+    },
+    {
+      "title": "UPS integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.html"
+    },
+    {
+      "title": "USPS integration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/usps.html"
+    },
+    {
+      "title": "Zebra label configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/zebra.html"
+    },
+    {
+      "title": "Inventory management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management.html"
+    },
+    {
+      "title": "Inventory adjustments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.html"
+    },
+    {
+      "title": "Cycle counts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/cycle_counts.html"
+    },
+    {
+      "title": "Operation types",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/operation_type.html"
+    },
+    {
+      "title": "Scrap inventory",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory.html"
+    },
+    {
+      "title": "inventory locations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.html"
+    },
+    {
+      "title": "Warehouses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.html"
+    },
+    {
+      "title": "Replenishment",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment.html"
+    },
+    {
+      "title": "Just-in-time logic",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/just_in_time.html"
+    },
+    {
+      "title": "Lead times",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.html"
+    },
+    {
+      "title": "Replenish on order (MTO)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.html"
+    },
+    {
+      "title": "Reordering rules",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.html"
+    },
+    {
+      "title": "Replenishment report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.html"
+    },
+    {
+      "title": "Inter-warehouse replenishment",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.html"
+    },
+    {
+      "title": "Allocation report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/allocation_report.html"
+    },
+    {
+      "title": "Inventory dashboards",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/dashboards.html"
+    },
+    {
+      "title": "Detailed Stock report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/detailed_stock.html"
+    },
+    {
+      "title": "Forecasted report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/forecast.html"
+    },
+    {
+      "title": "Moves analysis report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/moves_analysis.html"
+    },
+    {
+      "title": "Moves history report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/moves_history.html"
+    },
+    {
+      "title": "Stock report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/stock.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/maintenance.html"
+    },
+    {
+      "title": "Add new equipment",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/maintenance/add_new_equipment.html"
+    },
+    {
+      "title": "Maintenance calendar",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/maintenance/maintenance_calendar.html"
+    },
+    {
+      "title": "Maintenance requests",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/maintenance/maintenance_requests.html"
+    },
+    {
+      "title": "Maintenance setup",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/maintenance/maintenance_setup.html"
+    },
+    {
+      "title": "Reporting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing.html"
+    },
+    {
+      "title": "Kits",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/advanced_configuration/kit_shipping.html"
+    },
+    {
+      "title": "Managing BoMs for product variants",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/advanced_configuration/product_variants.html"
+    },
+    {
+      "title": "Multilevel BoMs",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.html"
+    },
+    {
+      "title": "Work centers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.html"
+    },
+    {
+      "title": "Work order dependencies",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/advanced_configuration/work_order_dependencies.html"
+    },
+    {
+      "title": "Bill of materials",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.html"
+    },
+    {
+      "title": "Manufacturing product configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/basic_setup/configure_manufacturing_product.html"
+    },
+    {
+      "title": "Manufacturing orders and work orders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/basic_setup/manufacturing_work_orders.html"
+    },
+    {
+      "title": "Manufacturing order costs",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/basic_setup/mo_costs.html"
+    },
+    {
+      "title": "One-step manufacturing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/basic_setup/one_step_manufacturing.html"
+    },
+    {
+      "title": "Three-step manufacturing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing.html"
+    },
+    {
+      "title": "Two-step manufacturing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/basic_setup/two_step_manufacturing.html"
+    },
+    {
+      "title": "Work-in-progress costs",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/basic_setup/work_in_progress.html"
+    },
+    {
+      "title": "Delays",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/reporting/delayed.html"
+    },
+    {
+      "title": "Overall equipment effectiveness",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/reporting/oee.html"
+    },
+    {
+      "title": "Production analysis",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/reporting/production_analysis.html"
+    },
+    {
+      "title": "Production overview",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/reporting/production_overview.html"
+    },
+    {
+      "title": "Shop Floor overview",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/shop_floor/shop_floor_overview.html"
+    },
+    {
+      "title": "Shop Floor time tracking",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/shop_floor/shop_floor_tracking.html"
+    },
+    {
+      "title": "Subcontracting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/subcontracting.html"
+    },
+    {
+      "title": "Basic subcontracting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.html"
+    },
+    {
+      "title": "Dropship to subcontractor",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_dropship.html"
+    },
+    {
+      "title": "Resupply subcontracting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_resupply.html"
+    },
+    {
+      "title": "By-Products",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/byproducts.html"
+    },
+    {
+      "title": "Continuous product improvement",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/continuous_improvement.html"
+    },
+    {
+      "title": "Continuous production",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/continuous_production.html"
+    },
+    {
+      "title": "Dismantle products into components",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/dismantle_products.html"
+    },
+    {
+      "title": "Manufacture with lots and serial numbers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/manufacture_lots_serials.html"
+    },
+    {
+      "title": "Manufacturing backorders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/manufacturing_backorders.html"
+    },
+    {
+      "title": "Scrap during manufacturing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/scrap_manufacturing.html"
+    },
+    {
+      "title": "Split and merge manufacturing orders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/split_merge.html"
+    },
+    {
+      "title": "Unbuild orders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/unbuild_orders.html"
+    },
+    {
+      "title": "Master production schedule",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/use_mps.html"
+    },
+    {
+      "title": "Work center time off",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/manufacturing/workflows/work_center_time_off.html"
+    },
+    {
+      "title": "Project management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/plm.html"
+    },
+    {
+      "title": "ECO types and stages",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/plm/manage_changes/eco_type.html"
+    },
+    {
+      "title": "Engineering change orders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/plm/manage_changes/engineering_change_orders.html"
+    },
+    {
+      "title": "Version control",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/plm/manage_changes/version_control.html"
+    },
+    {
+      "title": "Approvals",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/plm/management/approvals.html"
+    },
+    {
+      "title": "Advanced",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase.html"
+    },
+    {
+      "title": "Purchase Analysis report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/advanced/analyze.html"
+    },
+    {
+      "title": "EDI purchase-to-sales order import",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/advanced/edi.html"
+    },
+    {
+      "title": "Procurement expenses report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/advanced/procurement_expenses_report.html"
+    },
+    {
+      "title": "Purchase & Vendor analysis dashboard",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/advanced/purchase_dashboard.html"
+    },
+    {
+      "title": "Suggest quantities based on historical demand",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/advanced/suggest.html"
+    },
+    {
+      "title": "Vendor costs report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/advanced/vendor_costs_report.html"
+    },
+    {
+      "title": "Blanket orders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/manage_deals/blanket_orders.html"
+    },
+    {
+      "title": "Call for tenders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders.html"
+    },
+    {
+      "title": "Control policies",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/manage_deals/control_bills.html"
+    },
+    {
+      "title": "Manage vendor bills",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/manage_deals/manage.html"
+    },
+    {
+      "title": "Purchase templates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/manage_deals/purchase_templates.html"
+    },
+    {
+      "title": "Requests for quotation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/manage_deals/rfq.html"
+    },
+    {
+      "title": "Import vendor pricelist",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/products/pricelist.html"
+    },
+    {
+      "title": "Configure reordering rules",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/products/reordering.html"
+    },
+    {
+      "title": "Temporary reordering rules",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/purchase/products/temporary_reordering.html"
+    },
+    {
+      "title": "Quality check types",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/quality.html"
+    },
+    {
+      "title": "Instructions quality check",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/quality/quality_check_types/instructions_check.html"
+    },
+    {
+      "title": "Measure quality check",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/quality/quality_check_types/measure_check.html"
+    },
+    {
+      "title": "Pass - Fail quality check",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/quality/quality_check_types/pass_fail_check.html"
+    },
+    {
+      "title": "Take a Picture quality check",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/quality/quality_check_types/picture_check.html"
+    },
+    {
+      "title": "Failure locations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/quality/quality_management/failure_locations.html"
+    },
+    {
+      "title": "Quality alerts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/quality/quality_management/quality_alerts.html"
+    },
+    {
+      "title": "Quality checks",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/quality/quality_management/quality_checks.html"
+    },
+    {
+      "title": "Quality control points",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/quality/quality_management/quality_control_points.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/repairs.html"
+    },
+    {
+      "title": "Repair orders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/inventory_and_mrp/repairs/repair_orders.html"
+    },
+    {
+      "title": "See results",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/email_marketing.html"
+    },
+    {
+      "title": "Analyze metrics",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/email_marketing/analyze_metrics.html"
+    },
+    {
+      "title": "Lost leads reactivation email",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/email_marketing/lost_leads_email.html"
+    },
+    {
+      "title": "Mailing lists",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/email_marketing/mailing_lists.html"
+    },
+    {
+      "title": "Manage unsubscriptions (blacklist)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/email_marketing/unsubscriptions.html"
+    },
+    {
+      "title": "Events",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events.html"
+    },
+    {
+      "title": "Access location displays",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/attendee_experience/event_tracks.html"
+    },
+    {
+      "title": "Registering for slots as an attendee",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/attendee_experience/multi_slots.html"
+    },
+    {
+      "title": "View agenda",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/attendee_experience/track_manage_talks.html"
+    },
+    {
+      "title": "Group By options",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/event_reporting/attendees_report.html"
+    },
+    {
+      "title": "Sample report: event type analysis (pivot table)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/event_reporting/revenues_report.html"
+    },
+    {
+      "title": "Send event invites",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/event_setup/create_events.html"
+    },
+    {
+      "title": "Use event templates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/event_setup/event_templates.html"
+    },
+    {
+      "title": "Reserve a booth",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/promote_monetize/event_booths.html"
+    },
+    {
+      "title": "Publish an event sponsor",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/promote_monetize/event_sponsors.html"
+    },
+    {
+      "title": "Manually generate leads",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/promote_monetize/lead_generation.html"
+    },
+    {
+      "title": "Sell event tickets through the Website app",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/promote_monetize/sell_tickets.html"
+    },
+    {
+      "title": "Select Attendee",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/events/registration_desk.html"
+    },
+    {
+      "title": "Campaign templates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/marketing_automation.html"
+    },
+    {
+      "title": "Double opt-in",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/marketing_automation/campaign_templates/double_optin.html"
+    },
+    {
+      "title": "Audience targeting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/marketing_automation/target_audience.html"
+    },
+    {
+      "title": "Test and run campaigns",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/marketing_automation/testing_running.html"
+    },
+    {
+      "title": "Campaign metrics",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/marketing_automation/understanding_metrics.html"
+    },
+    {
+      "title": "Campaign workflow activities",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/marketing_automation/workflow_activities.html"
+    },
+    {
+      "title": "Campaign metrics",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/marketing_card.html"
+    },
+    {
+      "title": "SMS Marketing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/sms_marketing.html"
+    },
+    {
+      "title": "Send SMS messages",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/sms_marketing/create_sms.html"
+    },
+    {
+      "title": "Importing blacklists",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/sms_marketing/mailing_lists_blacklists.html"
+    },
+    {
+      "title": "Set up SMS templates for future use",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/sms_marketing/marketing_campaigns.html"
+    },
+    {
+      "title": "purchase credits",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/sms_marketing/pricing_and_faq.html"
+    },
+    {
+      "title": "SMS analysis",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/sms_marketing/sms_analysis.html"
+    },
+    {
+      "title": "Contact form test message",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/sms_marketing/sms_configuration.html"
+    },
+    {
+      "title": "Setup Odoo to use Twilio",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/sms_marketing/twilio.html"
+    },
+    {
+      "title": "social media accounts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/social_marketing.html"
+    },
+    {
+      "title": "Add content and communications to campaigns",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/social_marketing/social_campaigns.html"
+    },
+    {
+      "title": "Push Notification Options",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/social_marketing/social_posts.html"
+    },
+    {
+      "title": "Live Session surveys",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/surveys.html"
+    },
+    {
+      "title": "Participations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/surveys/analysis.html"
+    },
+    {
+      "title": "create/edit surveys",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/surveys/create.html"
+    },
+    {
+      "title": "Start Live Session surveys",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/surveys/live_session.html"
+    },
+    {
+      "title": "Live Sessions section",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/surveys/questions.html"
+    },
+    {
+      "title": "Scoring surveys",
+      "url": "https://www.odoo.com/documentation/20.0/applications/marketing/surveys/scoring.html"
+    },
+    {
+      "title": "Available MCP tools",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity.html"
+    },
+    {
+      "title": "AI and automation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai.html"
+    },
+    {
+      "title": "AI Agent",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/agents.html"
+    },
+    {
+      "title": "AI API keys",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/apikeys.html"
+    },
+    {
+      "title": "Understanding AI prompt structure",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/default_prompts.html"
+    },
+    {
+      "title": "Configuring prompts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/document_sort.html"
+    },
+    {
+      "title": "Example use cases",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/email-templates.html"
+    },
+    {
+      "title": "Computing AI fields",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/fields.html"
+    },
+    {
+      "title": "How AI image generation works",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/generate_images.html"
+    },
+    {
+      "title": "Best practices for AI-assisted writing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/improve_text.html"
+    },
+    {
+      "title": "Lead creation skill",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/live-chat.html"
+    },
+    {
+      "title": "Navigation and UI interaction",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/mcp_server.html"
+    },
+    {
+      "title": "Additional tools",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/mcp_server/mcp_tools.html"
+    },
+    {
+      "title": "Tools",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/server-actions.html"
+    },
+    {
+      "title": "Configuring AI fields",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/support_operations.html"
+    },
+    {
+      "title": "Transcribe a meeting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/ai/voice.html"
+    },
+    {
+      "title": "Appointments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/appointments.html"
+    },
+    {
+      "title": "Publishing an appointment",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/appointments/appointment_types.html"
+    },
+    {
+      "title": "Viewing the new opportunity",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/appointments/create-opps.html"
+    },
+    {
+      "title": "Configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/appointments/google_reserve.html"
+    },
+    {
+      "title": "Communication tab",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/calendar.html"
+    },
+    {
+      "title": "Application Type",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/calendar/google.html"
+    },
+    {
+      "title": "Reset options",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/calendar/outlook.html"
+    },
+    {
+      "title": "Standard, pre-configured dashboards",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/dashboards.html"
+    },
+    {
+      "title": "modifications",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/dashboards/build_and_customize_dashboards.html"
+    },
+    {
+      "title": "Customize layout",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/dashboards/my_dashboard.html"
+    },
+    {
+      "title": "Merge",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/data_cleaning.html"
+    },
+    {
+      "title": "User-specific notification preferences",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/discuss.html"
+    },
+    {
+      "title": "Use a canned response",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/discuss/canned_responses.html"
+    },
+    {
+      "title": "Translate a chatter message",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/discuss/chatter.html"
+    },
+    {
+      "title": "Define a list of custom ICE servers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/discuss/ice_servers.html"
+    },
+    {
+      "title": "Linking channel in chatter",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/discuss/team_communication.html"
+    },
+    {
+      "title": "File digitization with AI",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/documents.html"
+    },
+    {
+      "title": "article item’s view",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/knowledge.html"
+    },
+    {
+      "title": "Call Debrief panel",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone.html"
+    },
+    {
+      "title": "Add user credentials",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/axivox/axivox_config.html"
+    },
+    {
+      "title": "Connect to queue on Odoo",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/axivox/call_queues.html"
+    },
+    {
+      "title": "Start call in Odoo",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/axivox/conference_calls.html"
+    },
+    {
+      "title": "Add a multi-switch to dial plan",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/axivox/dial_plan_advanced.html"
+    },
+    {
+      "title": "Basic dial plan scenario",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/axivox/dial_plan_basics.html"
+    },
+    {
+      "title": "Advanced options",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/axivox/dynamic_caller_id.html"
+    },
+    {
+      "title": "User groups",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/axivox/manage_users.html"
+    },
+    {
+      "title": "Music on-hold",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/axivox/vm_audio_messages.html"
+    },
+    {
+      "title": "A queue or group node still shows old members",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/configuration/call_flows.html"
+    },
+    {
+      "title": "Linphone",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/devices_integrations.html"
+    },
+    {
+      "title": "Configure user settings",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/didww.html"
+    },
+    {
+      "title": "OnSIP smartphone app",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/onsip.html"
+    },
+    {
+      "title": "Cannot connect to the VoIP phone number",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/phone_widget.html"
+    },
+    {
+      "title": "End the sales call",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/sales_calls.html"
+    },
+    {
+      "title": "Log out of a support queue",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/phone/support_calls.html"
+    },
+    {
+      "title": "Sign",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/sign.html"
+    },
+    {
+      "title": "Tags",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/sign/configuration.html"
+    },
+    {
+      "title": "Replace a signer or update a signer’s email address",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/sign/request_signatures.html"
+    },
+    {
+      "title": "Upload a digital certificate in Odoo",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/sign/security_authentication.html"
+    },
+    {
+      "title": "Enable the Sign option in Documents",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/sign/sign_document.html"
+    },
+    {
+      "title": "Other countries",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/sign/validity.html"
+    },
+    {
+      "title": "Present and visualize data",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet.html"
+    },
+    {
+      "title": "create and use templates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/get_started.html"
+    },
+    {
+      "title": "insert and link to Odoo data",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/insert.html"
+    },
+    {
+      "title": "Insert a chart",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/insert/insert_chart.html"
+    },
+    {
+      "title": "Insert clickable links",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/insert/insert_clickable_links.html"
+    },
+    {
+      "title": "Insert financial data",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/insert/insert_financial_data.html"
+    },
+    {
+      "title": "Insert a list",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/insert/insert_list.html"
+    },
+    {
+      "title": "Insert a pivot table",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/insert/insert_pivot_table.html"
+    },
+    {
+      "title": "share files internally and externally",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/share_collaborate.html"
+    },
+    {
+      "title": "charts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/visualize_data/charts.html"
+    },
+    {
+      "title": "formatting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/visualize_data/conditional_formatting.html"
+    },
+    {
+      "title": "use functions, including Odoo-specific functions",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/work_with_data/functions.html"
+    },
+    {
+      "title": "global filters",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/work_with_data/global_filters.html"
+    },
+    {
+      "title": "use pivot tables",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/spreadsheet/work_with_data/pivot_tables.html"
+    },
+    {
+      "title": "Viewing to-dos in the Project app",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/to_do.html"
+    },
+    {
+      "title": "WhatsApp templates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/productivity/whatsapp.html"
+    },
+    {
+      "title": "Add a deposit to a rental order",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales.html"
+    },
+    {
+      "title": "CRM",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm.html"
+    },
+    {
+      "title": "leads",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/acquire_leads/convert.html"
+    },
+    {
+      "title": "Create leads (from email or manually)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/acquire_leads/email_manual.html"
+    },
+    {
+      "title": "Lead mining",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/acquire_leads/lead_mining.html"
+    },
+    {
+      "title": "Create opportunities from web contact forms",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/acquire_leads/opportunities_form.html"
+    },
+    {
+      "title": "Create and send quotations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/acquire_leads/send_quotes.html"
+    },
+    {
+      "title": "CRM Gamification",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/optimize/gamification.html"
+    },
+    {
+      "title": "Lead enrichment",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/optimize/lead_enrichment.html"
+    },
+    {
+      "title": "Membership / Partnership module",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/optimize/member_partner_module.html"
+    },
+    {
+      "title": "Partner autocomplete",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/optimize/partner_autocomplete.html"
+    },
+    {
+      "title": "activity plan",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/optimize/utilize_activities.html"
+    },
+    {
+      "title": "Expected revenue report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/performance/expected_revenue_report.html"
+    },
+    {
+      "title": "Forecast report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/performance/forecast_report.html"
+    },
+    {
+      "title": "Pipeline Analysis",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/performance/win_loss.html"
+    },
+    {
+      "title": "Lost opportunities",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/pipeline/lost_opportunities.html"
+    },
+    {
+      "title": "Manage sales teams",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/pipeline/manage_sales_teams.html"
+    },
+    {
+      "title": "Merge similar leads and opportunities",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/pipeline/merge_similar.html"
+    },
+    {
+      "title": "Lead distribution report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/track_leads/lead_distribution_report.html"
+    },
+    {
+      "title": "Assign leads with predictive lead scoring",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/track_leads/lead_scoring.html"
+    },
+    {
+      "title": "Marketing attribution reports",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/track_leads/marketing_attribution.html"
+    },
+    {
+      "title": "Quality leads report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/track_leads/quality_leads_report.html"
+    },
+    {
+      "title": "Resellers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/track_leads/resellers.html"
+    },
+    {
+      "title": "Unattended leads report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/crm/track_leads/unattended_leads_report.html"
+    },
+    {
+      "title": "point of sale",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale.html"
+    },
+    {
+      "title": "Extra features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/extra.html"
+    },
+    {
+      "title": "Multi-employee management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/extra/employee_login.html"
+    },
+    {
+      "title": "Preparation display",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/extra/preparation.html"
+    },
+    {
+      "title": "Presets",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/extra/presets.html"
+    },
+    {
+      "title": "Pricing features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/extra/pricing.html"
+    },
+    {
+      "title": "Self-ordering",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/extra/self_order.html"
+    },
+    {
+      "title": "Hardware and network",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/hardware_network.html"
+    },
+    {
+      "title": "Customer display",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/hardware_network/customer_display.html"
+    },
+    {
+      "title": "Electronic shelf labels",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/hardware_network/electronic_labels.html"
+    },
+    {
+      "title": "Self-signed certificate for ePOS printers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/hardware_network/epos_ssc.html"
+    },
+    {
+      "title": "IoT system connection",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/hardware_network/pos_iot.html"
+    },
+    {
+      "title": "Local Network Access",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/hardware_network/pos_lna.html"
+    },
+    {
+      "title": "Receipt printers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/hardware_network/receipt_printers.html"
+    },
+    {
+      "title": "Scale",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/hardware_network/scale.html"
+    },
+    {
+      "title": "Payment methods",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods.html"
+    },
+    {
+      "title": "Cash machines",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/cash_machines.html"
+    },
+    {
+      "title": "Cashdro",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/cash_machines/cashdro.html"
+    },
+    {
+      "title": "Cashmatic",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/cash_machines/cashmatic.html"
+    },
+    {
+      "title": "Glory",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/cash_machines/glory.html"
+    },
+    {
+      "title": "Customer account",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/customer_credit.html"
+    },
+    {
+      "title": "QR code payments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/qr_code_payment.html"
+    },
+    {
+      "title": "Payment terminals",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals.html"
+    },
+    {
+      "title": "Adyen",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/adyen.html"
+    },
+    {
+      "title": "DPO Pay",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/dpo.html"
+    },
+    {
+      "title": "Mercado Pago",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/mercado_pago.html"
+    },
+    {
+      "title": "Mollie",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/mollie.html"
+    },
+    {
+      "title": "Pine Labs",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/pine_labs.html"
+    },
+    {
+      "title": "QFPay",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/qfpay.html"
+    },
+    {
+      "title": "Razorpay",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/razorpay.html"
+    },
+    {
+      "title": "SIX",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/six.html"
+    },
+    {
+      "title": "Stripe",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/stripe.html"
+    },
+    {
+      "title": "Tyro",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/tyro.html"
+    },
+    {
+      "title": "Viva.com",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/viva_com.html"
+    },
+    {
+      "title": "Worldline & Axepta BNP Paribas",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/payment_methods/terminals/worldline_axepta.html"
+    },
+    {
+      "title": "Products",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/products.html"
+    },
+    {
+      "title": "Reporting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/reporting.html"
+    },
+    {
+      "title": "Restaurant features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/restaurant.html"
+    },
+    {
+      "title": "UrbanPiper",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/restaurant/urban_piper.html"
+    },
+    {
+      "title": "Shop features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/shop.html"
+    },
+    {
+      "title": "Workflow",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/use.html"
+    },
+    {
+      "title": "Invoices",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/use/pos_invoices.html"
+    },
+    {
+      "title": "Receipts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/point_of_sale/use/receipts.html"
+    },
+    {
+      "title": "Price computing",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/rental.html"
+    },
+    {
+      "title": "eCommerce features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/rental/configure_products/labor_service_products.html"
+    },
+    {
+      "title": "Search for rental products",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/rental/configure_products/product_type.html"
+    },
+    {
+      "title": "Multi-location management and transfers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/rental/configure_products/products.html"
+    },
+    {
+      "title": "eCommerce features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/rental/configure_products/service_products.html"
+    },
+    {
+      "title": "Confirm and pay",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/rental/rental_orders/create_rental_order.html"
+    },
+    {
+      "title": "Invoice the remaining rental charges",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/rental/rental_orders/manage_deposits.html"
+    },
+    {
+      "title": "Print pickup and return receipts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/rental/rental_orders/pickup_return.html"
+    },
+    {
+      "title": "Managing priority rental orders for the day",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/rental/rental_orders/rental_order_dashboard.html"
+    },
+    {
+      "title": "TikTok Connector",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales.html"
+    },
+    {
+      "title": "Tracking lot or serial number products with FBA orders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/amazon_connector/fba.html"
+    },
+    {
+      "title": "Amazon Connector features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/amazon_connector/features.html"
+    },
+    {
+      "title": "Amazon order management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/amazon_connector/manage.html"
+    },
+    {
+      "title": "Amazon Connector configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/amazon_connector/setup.html"
+    },
+    {
+      "title": "Commissions",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/commissions.html"
+    },
+    {
+      "title": "Gelato",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/gelato.html"
+    },
+    {
+      "title": "Down payments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/invoicing/down_payment.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/invoicing/invoicing_policy.html"
+    },
+    {
+      "title": "Invoice project milestones",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/invoicing/milestone.html"
+    },
+    {
+      "title": "Pro-forma invoices",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/invoicing/proforma.html"
+    },
+    {
+      "title": "services invoiced on a time-and-material basis",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/invoicing/time_materials.html"
+    },
+    {
+      "title": "Lazada Connector features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/lazada_connector/features.html"
+    },
+    {
+      "title": "Lazada order management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/lazada_connector/manage.html"
+    },
+    {
+      "title": "Lazada Connector configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/lazada_connector/setup.html"
+    },
+    {
+      "title": "Use eWallets and gift cards",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/products_prices/ewallets_giftcards.html"
+    },
+    {
+      "title": "loyalty programs",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/products_prices/loyalty_discount.html"
+    },
+    {
+      "title": "Foreign currencies",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/products_prices/prices/currencies.html"
+    },
+    {
+      "title": "Discounts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/products_prices/prices/discounts.html"
+    },
+    {
+      "title": "pricelists",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/products_prices/prices/pricing.html"
+    },
+    {
+      "title": "Import products",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/products_prices/products/import.html"
+    },
+    {
+      "title": "Product variants",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/products_prices/products/variants.html"
+    },
+    {
+      "title": "Returns and refunds",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/products_prices/returns.html"
+    },
+    {
+      "title": "Sales quotations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations.html"
+    },
+    {
+      "title": "Create quotations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/create_quotations.html"
+    },
+    {
+      "title": "Custom email signatures",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/custom_signatures.html"
+    },
+    {
+      "title": "Quotation deadlines",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/deadline.html"
+    },
+    {
+      "title": "Deliveries and invoices to different addresses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/different_addresses.html"
+    },
+    {
+      "title": "Online payment order confirmation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/get_paid_to_validate.html"
+    },
+    {
+      "title": "Online signatures for order confirmations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/get_signature_to_validate.html"
+    },
+    {
+      "title": "Margins",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/margin.html"
+    },
+    {
+      "title": "Optional products",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/optional_products.html"
+    },
+    {
+      "title": "Product variants on quotations and sales orders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/orders_and_variants.html"
+    },
+    {
+      "title": "PDF quote builder",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/pdf_quote_builder.html"
+    },
+    {
+      "title": "Add a PDF or a URL to a product",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/pdf_quote_builder/add_pdf_products.html"
+    },
+    {
+      "title": "Add PDFs to a quote",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/pdf_quote_builder/add_pdf_quotes.html"
+    },
+    {
+      "title": "Configure dynamic form fields in PDFs",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/pdf_quote_builder/dynamic_text.html"
+    },
+    {
+      "title": "Quotation & section templates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/sales_quotations/quote_template.html"
+    },
+    {
+      "title": "Shopee Connector features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/shopee_connector/features.html"
+    },
+    {
+      "title": "Shopee order management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/shopee_connector/manage.html"
+    },
+    {
+      "title": "Shopee Connector configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/shopee_connector/setup.html"
+    },
+    {
+      "title": "TikTok Shop connector features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/tiktok_connector/features.html"
+    },
+    {
+      "title": "TikTok Shop order management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/tiktok_connector/manage.html"
+    },
+    {
+      "title": "TikTok Shop connector configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/sales/tiktok_connector/setup.html"
+    },
+    {
+      "title": "Create a subscriptions quotation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/subscriptions.html"
+    },
+    {
+      "title": "What happens if an automatic payment fails?",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/subscriptions/automatic_payments.html"
+    },
+    {
+      "title": "Customer view",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/subscriptions/closing.html"
+    },
+    {
+      "title": "Subscriptions in the eCommerce shop",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/subscriptions/ecommerce.html"
+    },
+    {
+      "title": "Create a renewal manually",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/subscriptions/renewals.html"
+    },
+    {
+      "title": "Reporting pages",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/subscriptions/reports.html"
+    },
+    {
+      "title": "Validating delivery orders",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/subscriptions/subscriptions_deliveries.html"
+    },
+    {
+      "title": "Buy X, Get Y",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/subscriptions/subscriptions_loyalty.html"
+    },
+    {
+      "title": "Create alternative",
+      "url": "https://www.odoo.com/documentation/20.0/applications/sales/subscriptions/upselling.html"
+    },
+    {
+      "title": "Invoice post-paid support services",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services.html"
+    },
+    {
+      "title": "Advanced",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/helpdesk.html"
+    },
+    {
+      "title": "After-Sales services",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/helpdesk/advanced/after_sales.html"
+    },
+    {
+      "title": "Close tickets",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/helpdesk/advanced/close_tickets.html"
+    },
+    {
+      "title": "Track and bill time",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/helpdesk/advanced/track_and_bill.html"
+    },
+    {
+      "title": "Help Center",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/helpdesk/overview/help_center.html"
+    },
+    {
+      "title": "Customer ratings",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/helpdesk/overview/ratings.html"
+    },
+    {
+      "title": "Receiving tickets",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/helpdesk/overview/receiving_tickets.html"
+    },
+    {
+      "title": "Reporting",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/helpdesk/overview/reports.html"
+    },
+    {
+      "title": "Service level agreements (SLA)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/helpdesk/overview/sla.html"
+    },
+    {
+      "title": "Switching shifts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/planning.html"
+    },
+    {
+      "title": "Customer report",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/planning/field_service.html"
+    },
+    {
+      "title": "Task management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project.html"
+    },
+    {
+      "title": "Project configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project/project_management.html"
+    },
+    {
+      "title": "Project dashboard",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project/project_management/project_dashboard.html"
+    },
+    {
+      "title": "Project milestones",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project/project_management/project_milestones.html"
+    },
+    {
+      "title": "Project profitability",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project/project_management/project_profitability.html"
+    },
+    {
+      "title": "Project templates",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project/project_management/project_templates.html"
+    },
+    {
+      "title": "Recurring tasks",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project/tasks/recurring_tasks.html"
+    },
+    {
+      "title": "Sub-tasks",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project/tasks/sub-tasks.html"
+    },
+    {
+      "title": "Task creation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project/tasks/task_creation.html"
+    },
+    {
+      "title": "Task dependencies",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project/tasks/task_dependencies.html"
+    },
+    {
+      "title": "Task stages and statuses",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/project/tasks/task_stages_statuses.html"
+    },
+    {
+      "title": "fill in the fields",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/timesheets.html"
+    },
+    {
+      "title": "Timesheet billing rates and leaderboard",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/timesheets/billing_rates.html"
+    },
+    {
+      "title": "Time off entries",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/timesheets/time_off.html"
+    },
+    {
+      "title": "Timesheet assistant",
+      "url": "https://www.odoo.com/documentation/20.0/applications/services/timesheets/timesheet_assistant.html"
+    },
+    {
+      "title": "open Studio",
+      "url": "https://www.odoo.com/documentation/20.0/applications/studio.html"
+    },
+    {
+      "title": "Approval rules",
+      "url": "https://www.odoo.com/documentation/20.0/applications/studio/approval_rules.html"
+    },
+    {
+      "title": "actions",
+      "url": "https://www.odoo.com/documentation/20.0/applications/studio/automated_actions.html"
+    },
+    {
+      "title": "Response viewer",
+      "url": "https://www.odoo.com/documentation/20.0/applications/studio/automated_actions/webhooks.html"
+    },
+    {
+      "title": "Many2One field",
+      "url": "https://www.odoo.com/documentation/20.0/applications/studio/fields.html"
+    },
+    {
+      "title": "model",
+      "url": "https://www.odoo.com/documentation/20.0/applications/studio/models_modules_apps.html"
+    },
+    {
+      "title": "default layout",
+      "url": "https://www.odoo.com/documentation/20.0/applications/studio/pdf_reports.html"
+    },
+    {
+      "title": "form view",
+      "url": "https://www.odoo.com/documentation/20.0/applications/studio/views.html"
+    },
+    {
+      "title": "Forward conversations based on expertise",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites.html"
+    },
+    {
+      "title": "Customize blog landing pages",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/blog.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce.html"
+    },
+    {
+      "title": "Ordering and checkout",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/checkout.html"
+    },
+    {
+      "title": "Configuration",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/configuration.html"
+    },
+    {
+      "title": "B2B and B2C",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/configuration/b2b_b2c.html"
+    },
+    {
+      "title": "Categories and variants",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/configuration/categories_variants.html"
+    },
+    {
+      "title": "Customer accounts",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/configuration/customer_accounts.html"
+    },
+    {
+      "title": "Prices",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/configuration/prices.html"
+    },
+    {
+      "title": "Products",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/configuration/products.html"
+    },
+    {
+      "title": "eCommerce design",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/ecommerce_design.html"
+    },
+    {
+      "title": "Additional features",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/ecommerce_design/additional_features.html"
+    },
+    {
+      "title": "Product catalog",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/ecommerce_design/catalog.html"
+    },
+    {
+      "title": "Product page",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/ecommerce_design/product_page.html"
+    },
+    {
+      "title": "Google Merchant Center",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/google_merchant_center.html"
+    },
+    {
+      "title": "Order handling",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/order_handling.html"
+    },
+    {
+      "title": "Payments",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/payments.html"
+    },
+    {
+      "title": "Performance management",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/performance.html"
+    },
+    {
+      "title": "Deliveries",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/ecommerce/shipping.html"
+    },
+    {
+      "title": "Publish courses and content",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/elearning.html"
+    },
+    {
+      "title": "Moderate a forum",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/forum.html"
+    },
+    {
+      "title": "Create new rules",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/livechat.html"
+    },
+    {
+      "title": "Add chatbot to a channel",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/livechat/chatbots.html"
+    },
+    {
+      "title": "Looking for help conversations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/livechat/expertise.html"
+    },
+    {
+      "title": "Send conversation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/livechat/information.html"
+    },
+    {
+      "title": "Manage live chat requests",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/livechat/participate.html"
+    },
+    {
+      "title": "Hide individual ratings",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/livechat/ratings.html"
+    },
+    {
+      "title": "Operator Analysis",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/livechat/reports.html"
+    },
+    {
+      "title": "Use canned responses in a live chat conversation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/livechat/responses.html"
+    },
+    {
+      "title": "Website Documentation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website.html"
+    },
+    {
+      "title": "Configuration Configure domain names, address autocompletion, Google Search Console, cookies bar,\ntranslations, multiple websites, form spam protection, content delivery network (CDN).",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/configuration.html"
+    },
+    {
+      "title": "Set up a content delivery network (CDN)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/configuration/cdn.html"
+    },
+    {
+      "title": "Cookies bar",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/configuration/cookies_bar.html"
+    },
+    {
+      "title": "free custom domain name",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/configuration/domain_names.html"
+    },
+    {
+      "title": "Google Search Console",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/configuration/google_search_console.html"
+    },
+    {
+      "title": "Multiple websites",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/configuration/multi_website.html"
+    },
+    {
+      "title": "Forms spam protection",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/configuration/spam_protection.html"
+    },
+    {
+      "title": "Translations",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/configuration/translate.html"
+    },
+    {
+      "title": "Mail groups",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/mail_groups.html"
+    },
+    {
+      "title": "Reporting Monitor your website’s traffic with website analytics and set up link trackers.",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/reporting.html"
+    },
+    {
+      "title": "Website analytics",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/reporting/analytics.html"
+    },
+    {
+      "title": "Link tracker",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/reporting/link_tracker.html"
+    },
+    {
+      "title": "Structure",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/structure.html"
+    },
+    {
+      "title": "Headers and footers",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/structure/header_footer.html"
+    },
+    {
+      "title": "Pages",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/structure/pages.html"
+    },
+    {
+      "title": "Search Engine Optimization (SEO)",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/structure/seo.html"
+    },
+    {
+      "title": "Web design",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/web_design.html"
+    },
+    {
+      "title": "Building blocks",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/web_design/building_blocks.html"
+    },
+    {
+      "title": "Forms",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/web_design/building_blocks/forms.html"
+    },
+    {
+      "title": "Elements",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/web_design/elements.html"
+    },
+    {
+      "title": "General theme",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/web_design/themes.html"
+    },
+    {
+      "title": "Visibility",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/web_design/visibility.html"
+    },
+    {
+      "title": "Website creation",
+      "url": "https://www.odoo.com/documentation/20.0/applications/websites/website/website_creation.html"
+    },
+    {
+      "title": "Discover other ways to contribute to Odoo",
+      "url": "https://www.odoo.com/documentation/20.0/contributing.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/contributing/development.html"
+    },
+    {
+      "title": "coding guidelines",
+      "url": "https://www.odoo.com/documentation/20.0/contributing/development/coding_guidelines.html"
+    },
+    {
+      "title": "Git guidelines",
+      "url": "https://www.odoo.com/documentation/20.0/contributing/development/git_guidelines.html"
+    },
+    {
+      "title": "Documentation",
+      "url": "https://www.odoo.com/documentation/20.0/contributing/documentation.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/contributing/documentation/content_guidelines.html"
+    },
+    {
+      "title": "RST cheat sheet: images",
+      "url": "https://www.odoo.com/documentation/20.0/contributing/documentation/rst_guidelines.html"
+    },
+    {
+      "title": "Bank statements",
+      "url": "https://www.odoo.com/documentation/20.0/developer.html"
+    },
+    {
+      "title": "external identifier",
+      "url": "https://www.odoo.com/documentation/20.0/developer/glossary.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/accounting_localization.html"
+    },
+    {
+      "title": "Security rules",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/company.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/connect_device.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/create_reports.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/frontend_owl_components.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/javascript_client_action.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/javascript_field.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/javascript_view.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/scss_tips.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/standalone_owl_application.html"
+    },
+    {
+      "title": "Translating Modules",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/translations.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/upgrade_custom_db.html"
+    },
+    {
+      "title": "Going live",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/animations.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/building_blocks.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/forms.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/going_live.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/gradients.html"
+    },
+    {
+      "title": "Set parameters of a t-call",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/layout.html"
+    },
+    {
+      "title": "Media",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/media.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/navigation.html"
+    },
+    {
+      "title": "Related to noupdate=1",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/pages.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/setup.html"
+    },
+    {
+      "title": "Image Shapes: Image processing",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/shapes.html"
+    },
+    {
+      "title": "palette",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/theming.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/howtos/website_themes/translations.html"
+    },
+    {
+      "title": "Get results",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference.html"
+    },
+    {
+      "title": "cron",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/actions.html"
+    },
+    {
+      "title": "Data Files",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/data.html"
+    },
+    {
+      "title": "Response",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/http.html"
+    },
+    {
+      "title": "chatter widget",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/mixins.html"
+    },
+    {
+      "title": "module manifest",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/module.html"
+    },
+    {
+      "title": "Odoo’s ORM capabilities",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/orm.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/orm/changelog.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/performance.html"
+    },
+    {
+      "title": "Populate",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/populate.html"
+    },
+    {
+      "title": "1",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/reports.html"
+    },
+    {
+      "title": "field-level access control",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/security.html"
+    },
+    {
+      "title": "test tags",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/backend/testing.html"
+    },
+    {
+      "title": "proxy mode",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/cli.html"
+    },
+    {
+      "title": "external JSON-2 API",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/external_api.html"
+    },
+    {
+      "title": "developer API key",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/external_rpc_api.html"
+    },
+    {
+      "title": "/parse",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/extract_api.html"
+    },
+    {
+      "title": "asset bundles",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/assets.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/error_handling.html"
+    },
+    {
+      "title": "tests assets",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/framework_overview.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/hooks.html"
+    },
+    {
+      "title": "Native Javascript Modules",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/javascript_modules.html"
+    },
+    {
+      "title": "Widget section",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/javascript_reference.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/mobile.html"
+    },
+    {
+      "title": "Powerbox",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/odoo_editor.html"
+    },
+    {
+      "title": "best practices",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/owl_components.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/patching_code.html"
+    },
+    {
+      "title": "QWeb",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/qweb.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/registries.html"
+    },
+    {
+      "title": "services",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/services.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/unit_testing.html"
+    },
+    {
+      "title": "“@odoo/hoot”",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/unit_testing/hoot.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/unit_testing/mock_server.html"
+    },
+    {
+      "title": "mountWithCleanup",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/frontend/unit_testing/web_helpers.html"
+    },
+    {
+      "title": "Chart Template References",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/account.html"
+    },
+    {
+      "title": "account.account",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/account/account_account.html"
+    },
+    {
+      "title": "account.account.tag",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/account/account_account_tag.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/account/account_fiscal_position.html"
+    },
+    {
+      "title": "account.report",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/account/account_report.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/account/account_report_line.html"
+    },
+    {
+      "title": "account.tax",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/account/account_tax.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/account/account_tax_repartition.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/payment/payment_method.html"
+    },
+    {
+      "title": "_send_api_request()",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/payment/payment_provider.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/payment/payment_token.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/standard_modules/payment/payment_transaction.html"
+    },
+    {
+      "title": "domain",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/upgrades/reference/orm/domains"
+    },
+    {
+      "title": "migrate()",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/upgrades/upgrade_scripts.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/upgrades/upgrade_utils.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/user_interface/icons.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/user_interface/scss_inheritance.html"
+    },
+    {
+      "title": "View architectures",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/user_interface/view_architectures.html"
+    },
+    {
+      "title": "inheritance hook",
+      "url": "https://www.odoo.com/documentation/20.0/developer/reference/user_interface/view_records.html"
+    },
+    {
+      "title": "developer tutorials",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials.html"
+    },
+    {
+      "title": "these instructions",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/backend.html"
+    },
+    {
+      "title": "Demo Data",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/define_module_data.html"
+    },
+    {
+      "title": "tutorial introduction",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/discover_js_framework.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/discover_js_framework/01_owl_components.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/discover_js_framework/02_build_a_dashboard.html"
+    },
+    {
+      "title": "a model using Python",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/getting_started/04_basicmodel.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/importable_modules.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/mixins.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/pdf_reports.html"
+    },
+    {
+      "title": "2",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/restrict_data_access.html"
+    },
+    {
+      "title": "Server framework 101",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101.html"
+    },
+    {
+      "title": "Chapter 1: Architecture Overview",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/01_architecture.html"
+    },
+    {
+      "title": "beginning of the tutorial",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/02_newapp.html"
+    },
+    {
+      "title": "model",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/03_basicmodel.html"
+    },
+    {
+      "title": "Chapter 4: Security - A Brief Introduction",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/04_securityintro.html"
+    },
+    {
+      "title": "Chapter 5: Finally, Some UI To Play With",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/05_firstui.html"
+    },
+    {
+      "title": "Chapter 6: Basic Views",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/06_basicviews.html"
+    },
+    {
+      "title": "Chapter 7: Relations Between Models",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/07_relations.html"
+    },
+    {
+      "title": "previous chapter",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/08_compute_onchange.html"
+    },
+    {
+      "title": "Chapter 9: Ready For Some Action?",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/09_actions.html"
+    },
+    {
+      "title": "constraints",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/10_constraints.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/11_sprinkles.html"
+    },
+    {
+      "title": "Chapter 12: Inheritance",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/12_inheritance.html"
+    },
+    {
+      "title": "create an\ninvoice",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/13_other_module.html"
+    },
+    {
+      "title": "introduced to QWeb",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/14_qwebintro.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/server_framework_101/15_final_word.html"
+    },
+    {
+      "title": "setup guide",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/setup_guide.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/unit_tests.html"
+    },
+    {
+      "title": "Tutorial: Client Actions",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/web.html"
+    },
+    {
+      "title": "Chapter 6 - Going live",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/website_theme.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/website_theme/01_theming.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/website_theme/02_build_website.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/website_theme/03_customisation_part1.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/website_theme/04_customisation_part2.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/website_theme/05_dynamic_templates.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/developer/tutorials/website_theme/06_going_live.html"
+    },
+    {
+      "title": "¶",
+      "url": "https://www.odoo.com/documentation/20.0/legal.html"
+    },
+    {
+      "title": "Contributor License Agreement",
+      "url": "https://www.odoo.com/documentation/20.0/legal/cla.html"
+    },
+    {
+      "title": "Licenses",
+      "url": "https://www.odoo.com/documentation/20.0/legal/licenses.html"
+    },
+    {
+      "title": "Read",
+      "url": "https://www.odoo.com/documentation/20.0/legal/terms/enterprise.html"
+    },
+    {
+      "title": "Read",
+      "url": "https://www.odoo.com/documentation/20.0/legal/terms/partnership.html"
+    },
+    {
+      "title": "Read",
+      "url": "https://www.odoo.com/documentation/20.0/legal/terms/terms_of_sale.html"
+    },
+    {
+      "title": "Download PDF",
+      "url": "https://www.odoo.com/documentation/20.0/odoo_enterprise_agreement.pdf"
+    },
+    {
+      "title": "Download PDF",
+      "url": "https://www.odoo.com/documentation/20.0/odoo_partnership_agreement.pdf"
+    },
+    {
+      "title": "Download PDF",
+      "url": "https://www.odoo.com/documentation/20.0/terms_of_sale.pdf"
+    }
+  ]
+}

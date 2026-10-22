@@ -1,0 +1,7 @@
+interface:
+  display_name: "Odoo Development"
+  short_description: "Version-aware Odoo development and delivery guidance"
+  default_prompt: "Use $odoo-development to develop, test, and deliver this Odoo change against its target version."
+
+policy:
+  allow_implicit_invocation: true
