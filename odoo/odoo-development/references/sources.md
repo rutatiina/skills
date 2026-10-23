@@ -16,6 +16,13 @@ This is a comprehensive, curated development skill, **not a claim to have read e
 | Certifications | Public listing and version 19/18 functional certification information; no paid exam questions or exam completion | [Certification notes](learning-and-fit-analysis.md) |
 | Legal | Licensing, Enterprise/partnership/sale terms, cloud SLA, acceptable use, privacy, GDPR and CLA guidance; no legal-compliance determination | [Legal](legal-and-licensing.md) |
 
+## Core-source verification (2026-10-23)
+
+The review pass checked version-specific claims against `github.com/odoo/odoo` branches `18.0`, `19.0` and `20.0` (raw files and the Git tree API), the 19.0/20.0 ORM changelogs, and `github.com/odoo/owl` `doc/v3`. Results went into [version deltas](version-deltas.md) and [scaffolds](scaffolds.md):
+
+- Confirmed: `ir.access` replaces `ir.model.access`/`ir.rule` on 20.0 (231 `ir.access.csv` files, no `ir_rule.py`); test default tags (`at_install` on 19.0, `post_install` on 20.0); `_sql_constraints` ignored with a warning since 19.0; `read_group` deprecation (19) and signature change (20); `get_param`/`set_param` removed on 20.0; `check_access_rights` removed on 20.0; Owl 2.8 on 19.0 and Owl 3 alpha on 20.0; `odoo/upgrade_code/` scripts; `odoo-bin` subcommands.
+- The scaffolds are adapted from core `addons/maintenance` and `addons/web`. They were assembled into an `acme_case` module and run on the official `odoo:19.0` and `odoo:20.0` Docker images (plus Chromium and `websocket-client`) with PostgreSQL 16. Install succeeded, the views passed schema validation, and the 3 Python tests (sequence/compute, workflow guard, record-rule/`ir.access` isolation) and the HOOT field-widget test passed on both versions. The controller, wizard button flow, cron and upgrade script were loaded but not exercised. The upgrade script needs `odoo/upgrade-util`, which the images don't include.
+
 ## Retrieval inventory
 
 The manifest contains **274 retrieval records**: **267 content responses**, **5 HTML redirect stubs**, and **2 unavailable URLs**. The two unavailable URLs are attempts to access the same SOFTONE white paper. The resource catalog contains **996 discovered documentation URLs**, not that many reviewed pages.
@@ -43,14 +50,14 @@ The manifest contains **274 retrieval records**: **267 content responses**, **5 
 
 ## Reuse and refresh
 
-Keep this workspace directory as the editable source. A personal copy is installed at `~/.codex/skills/odoo-development`; after editing the source, validate and synchronize that copy. Repository and personal AGENTS instructions direct Odoo work to the skill. Automatic invocation is enabled in `agents/openai.yaml`.
+Keep this workspace directory as the only editable source. `~/.claude/skills/odoo-development` (Claude Code) and `~/.codex/skills/odoo-development` (Codex) are **symlinks** to it, so edits take effect without copying. Repository and personal agent instructions direct Odoo work to the skill. Codex implicit invocation is enabled in `agents/openai.yaml`.
 
-1. Identify the actual target version and read only relevant topic references.
-2. Verify exact APIs and changing requirements in matching official documentation/source.
+1. When a new major ships, diff its ORM changelog and `odoo/upgrade_code/` directory against [version deltas](version-deltas.md) first. This is the highest-value refresh.
+2. Verify exact APIs and changing requirements in matching official documentation and core source.
 3. Run `python3 scripts/check_sources.py --category developer --limit 10` for a read-only sample, or raise the limit to check the whole category. JSON lines go to stdout and a summary to stderr; exit 1 means a retrieval failed, exit 2 means invalid arguments.
 4. A changed hash is a review candidate, not proof of a semantic edit. HTTP checks do not establish technical correctness.
 5. Update the synthesis, source metadata and retrieval date together when re-researching; do not merely replace the date.
-6. Run the skill-creator validator and verify internal links/helper behavior before reinstalling.
+6. Run the skill-creator validator, check internal links, and re-run `evals/evals.json` with and without the skill.
 
 ## Provenance files
 

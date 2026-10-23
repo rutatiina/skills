@@ -28,7 +28,22 @@ Keep credentials in an appropriate secret/config mechanism with restricted acces
 
 Source: [packaged installers](https://www.odoo.com/documentation/20.0/administration/on_premise/packages.html).
 
+Common commands (19/20, adapt the launcher):
+
+```bash
+odoo-bin -c dev.conf -d acme_dev -i acme_case --stop-after-init          # install
+odoo-bin -c dev.conf -d acme_dev -u acme_case --stop-after-init          # update code/data/schema
+odoo-bin -c dev.conf --dev=xml,reload,qweb                               # dev: reload Python, read views from disk
+odoo-bin module list -c dev.conf -d acme_dev                             # subcommands: see `odoo-bin --help`
+odoo-bin shell -c dev.conf -d acme_dev                                   # `env` in a Python shell
+```
+
+A Python change needs a server restart. A view/data change needs `-u` (or `--dev=xml` for views during development). A new field needs `-u` for the schema. JS/SCSS changes need a browser reload, or `?debug=assets` if the old bundle is cached.
+
 ## Odoo.sh behavior
+
+Repository layout: the repository root holds the addon folders, and other addon repositories can be added as Git submodules. A root `requirements.txt` installs extra Python packages. The branch's Odoo version comes from the project/branch settings, not from your manifests.
+
 
 Development builds create fresh test databases; staging uses production-derived data for functional validation; production pushes change the live runtime. A manifest version increment can trigger automatic module updates. Build success does not establish realistic data/workflow correctness. Verify configured test selection: do not assume staging runs all unit tests. Review backup/retention behavior for the relevant stage rather than assuming parity.
 

@@ -16,6 +16,17 @@ Review whether new standard features replace customizations. Stabilize the upgra
 
 Source: [upgrade a customized database](https://www.odoo.com/documentation/20.0/developer/howtos/upgrade_custom_db.html).
 
+Odoo's upgrade platform converts the **standard** data:
+
+```bash
+python <(curl -s https://upgrade.odoo.com/upgrade) test -d <db> -t <target-version>         # repeatable test copy
+python <(curl -s https://upgrade.odoo.com/upgrade) production -d <db> -t <target-version>   # real cutover; DB unavailable meanwhile
+```
+
+The test copy has no filestore, so merge the production filestore before realistic testing. Request fresh test copies periodically, because both the upgrade scripts and your database change over time. On Odoo.sh, request the upgrade from the project's Upgrade tab on a staging branch. Each push then restores the upgraded backup and updates your custom modules; check `~/logs/upgrade.log`. Production changes made after the upload are lost, so freeze production use during the cutover.
+
+Port the **code** in a separate step: run `odoo-bin upgrade_code --from <old-series>` from the target checkout ([version deltas](version-deltas.md#automated-code-rewrites)), then fix the remaining items by hand from the deltas table, and make each addon install on an empty target database before updating it on the upgraded copy.
+
 Recommended verification includes record counts/external IDs, balances and open items, stock quantities/valuation, taxes, company isolation, attachments, reports, scheduled jobs, webhooks and integrations. Select actual affected domains rather than treating every upgrade as an identical checklist.
 
 ## Versioned scripts

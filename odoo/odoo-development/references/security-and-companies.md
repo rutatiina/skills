@@ -6,10 +6,14 @@
 
 ```csv
 id,name,model_id,group_id/id,operation,domain
-access_acme_case_user,Case user,acme.case,acme.group_case_user,cru,[]
+acme_case_company,Cases: multi-company,acme.case,,crud,"[('company_id', 'in', company_ids)]"
+access_acme_case_user,Cases: own,acme.case,acme_case.group_acme_case_user,cru,"[('user_id', '=', user.id)]"
+access_acme_case_manager,Cases: manager,acme.case,acme_case.group_acme_case_manager,crud,
 ```
 
-Verify target group privilege definitions and CSV converters. Never mechanically convert a blank-group old ACL: its meaning changes. Field `groups` enforces access; hidden controls do not. Public methods receive untrusted IDs/arguments. Limit elevation to justified operations.
+As in core 20.0 (`addons/maintenance/security/ir.access.csv`), `model_id` holds the model's technical name, `group_id/id` holds the full XML ID, and a blank `domain` means all records. Domain variables are `user`, `company_id`, `company_ids` and `time`. 19.3 also added an `access` domain operator that checks permissions on the comodel. An old group ACL + group rule pair becomes one group row carrying the rule's domain. An old global rule becomes a blank-group row.
+
+`odoo-bin upgrade_code --script 19.4-00-ir-access` converts existing `ir.model.access.csv` + `ir.rule` XML. It is not idempotent and needs the module's complete initial data. Review its output row by row. Never convert a blank-group old ACL by hand, because its meaning flips from "everyone may" to "everyone is restricted to". Field `groups` enforces access; hidden controls do not. Public methods receive untrusted IDs and arguments. Limit elevation to justified operations.
 
 Source: [20 security](https://www.odoo.com/documentation/20.0/developer/reference/backend/security.html).
 
@@ -20,7 +24,7 @@ id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_acme_case_user,Case user,model_acme_case,acme.group_case_user,1,1,1,0
 ```
 
-These are version-specific illustrations, not universal scaffolds.
+Groups on 19 and 20 attach to an app through a `res.groups.privilege` record (`privilege_id`), and list members in `user_ids` (18 and earlier used `category_id` and `users`). Full files: [scaffolds](scaffolds.md).
 
 Source: [19 security](https://www.odoo.com/documentation/19.0/developer/reference/backend/security.html).
 

@@ -6,7 +6,7 @@ Inherit views by external ID with narrow, stable selectors. Parent chains, prior
 
 Source: [view records](https://www.odoo.com/documentation/20.0/developer/reference/user_interface/view_records.html).
 
-Current architecture uses `<list>` and Python expressions for modifiers. Fields referenced by expressions must be available; invisible fields can supply data. Column visibility and cell invisibility differ. Check target schemas for legacy `attrs`, `states`, tree and kanban templates. Domains/default contexts guide UI behavior, not authorization.
+Current architecture uses `<list>`, `<chatter/>`, kanban `<t t-name="card">` and Python expressions for `invisible`/`readonly`/`required`/`column_invisible`. Fields referenced by expressions must be available in the view; add them with `invisible="1"` when a modifier needs them. `column_invisible` hides a list column, while `invisible` hides a cell. In 20.0 a kanban can delegate its card to a separate `<card>` view via `card_id`. Domains and default contexts guide UI behavior, not authorization.
 
 Source: [view architectures](https://www.odoo.com/documentation/20.0/developer/reference/user_interface/view_architectures.html).
 
@@ -20,7 +20,9 @@ Use native imports and target `@addon/path` names. Current Odoo transpiles files
 
 Source: [JavaScript modules](https://www.odoo.com/documentation/20.0/developer/reference/frontend/javascript_modules.html).
 
-Use Owl `setup()`, hooks, explicit props and addon-prefixed templates. Include JavaScript/XML/styles in the correct bundle. Reuse framework components; handle reactive state and asynchronous work through component lifecycle.
+Use Owl `setup()`, hooks, explicit props and addon-prefixed templates (`acme_case.HoursBadgeField`). Include JavaScript/XML/styles in the correct bundle. Reuse framework components, and handle reactive state and asynchronous work through the component lifecycle.
+
+**The Owl major depends on the Odoo version.** 19.0 ships Owl 2: `static props = {...}`, `useState`, templates referencing `props.x` and `state.y`. 20.0 ships Owl 3: `props = useProps({...})` with `t` validators, `proxy()`/`signal()`/`computed()` reactivity, `useEffect(fn)` tracking what it reads, templates referencing `this.props.x` and `this.state.y`, and services implemented as plugins (`useService` still available). `odoo-bin upgrade_code --script owl3-migration` rewrites much of an Owl 2 addon. Check the result against a current core component. Owl 3 docs: `github.com/odoo/owl/tree/master/doc/v3`.
 
 Source: [Owl components](https://www.odoo.com/documentation/20.0/developer/reference/frontend/owl_components.html).
 
@@ -42,7 +44,7 @@ Select backend, frontend, report and test bundles by execution context. Asset be
 
 Source: [assets](https://www.odoo.com/documentation/20.0/developer/reference/frontend/assets.html).
 
-Respect SCSS variable order; scope component styles and use CSS variables for contextual changes. Avoid broad selectors. Verify responsive/RTL layouts and target icons rather than assuming legacy Font Awesome names.
+Respect SCSS variable order; scope component styles and use CSS variables for contextual changes. Avoid broad selectors. Verify responsive/RTL layouts. Use the target's icons: 20.0 uses Material Symbols (`<i class="oi" data-icon="person"/>`), while 19.0 still accepts Font Awesome (`fa fa-user`) and `oi` icons.
 
 Sources: [SCSS inheritance](https://www.odoo.com/documentation/20.0/developer/reference/user_interface/scss_inheritance.html), [SCSS tips](https://www.odoo.com/documentation/20.0/developer/howtos/scss_tips.html), [icons](https://www.odoo.com/documentation/20.0/developer/reference/user_interface/icons.html).
 

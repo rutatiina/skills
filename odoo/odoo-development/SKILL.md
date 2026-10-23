@@ -1,51 +1,60 @@
 ---
 name: odoo-development
-description: Develop, debug, review, test, install, integrate, deploy, and upgrade Odoo addons and customizations. Use for Odoo models, ORM, security, XML views, Owl/JavaScript, QWeb, business workflows, external APIs, and Odoo.sh or on-premise environments. Consult for every Odoo development task and match guidance to the project's exact version and edition.
+description: Develop, debug, review, test, port, install, integrate, deploy and upgrade Odoo addons and customizations (odoo.com, Community or Enterprise, Odoo Online/Odoo.sh/on-premise). Use for any Odoo work, including __manifest__.py, models/ORM, ir.access/ir.model.access security, XML views, Owl/JavaScript, QWeb reports, controllers and JSON-2/RPC integrations, odoo-bin, tests, and version migrations. Version-aware for 19.0 and 20.0.
 ---
 
 # Odoo development
 
-Consult this skill whenever developing for Odoo. It synthesizes the seven areas linked from [Odoo's documentation portal](https://www.odoo.com/page/docs), researched **2026-10-22**. At that date `latest` resolved to **20.0**. This is a research baseline, not the default version for a project.
+Odoo changes APIs, XML schemas and security models between majors, and most examples online (and in model memory) are for older versions. **The main failure mode is writing code for the wrong version.** Confirm the target before writing code, and compare it with core source on that branch.
 
-## Establish the target before writing code
+## 1. Establish the target
 
-Inspect repository instructions, server source/version, addon manifests, configuration and tests. Establish **major/minor version, Community/Enterprise, hosting, addon paths, affected apps, company boundaries and business outcome**. A custom module's version alone is not conclusive. Ask only for missing information that materially affects implementation and cannot be discovered locally.
+Find out the **series (19.0/20.0/…), edition (Community/Enterprise), hosting (Online/Odoo.sh/on-premise), addon paths, affected apps and company setup**. Discover these locally first: server `odoo/release.py` or `odoo-bin --version`, manifests' `version`, config files, Docker image tags, CI and `requirements.txt` ([discovery](references/version-and-discovery.md)). Ask only for what you can't discover and what changes the implementation. Never silently move a project to a newer version.
 
-Read [version-and-discovery.md](references/version-and-discovery.md) for compatibility decisions. Use matching official documentation and core code before relying on a signature, XML ID or extension hook. Never silently move a project to the research baseline. Odoo 20 changes security records and test defaults.
+Documentation links in this skill use `/documentation/20.0/`. **Replace `20.0` with the target series** before reading them.
 
-## Implement a maintainable extension
+## 2. Implement
 
-1. Reproduce the standard workflow with representative data. Check configuration and installed modules before designing custom behavior. Use [functional-workflows.md](references/functional-workflows.md) for business invariants and acceptance cases.
-2. Implement the smallest coherent addon change using extension points, explicit dependencies, stable external IDs and repository conventions. Customer extensions normally belong in custom addons; core fixes follow the task's scope.
-3. Enforce access on the server, preserve multi-record semantics and respect framework transactions. UI visibility and domains do not enforce authorization.
-4. Validate the affected boundary: install/update, business action, roles/companies, UI or integration. Use a disposable database. Run applicable required checks and report what actually ran; static review is not runtime validation.
-5. Deliver the target version/edition, change, verification, migration or operational requirements and limitations. Include a suggested commit message when modifying Git-tracked files.
+1. Reproduce the standard workflow first. Configuration, an existing module or Studio may already cover the need ([functional workflows](references/functional-workflows.md)).
+2. Find the closest core or existing module that does something similar on the target branch and follow its patterns ([ecosystem](references/ecosystem.md)).
+3. Write the smallest coherent change in a custom addon: `_inherit` extension points, explicit `depends`, stable XML IDs and the repository's conventions. Use [scaffolds](references/scaffolds.md) for file shapes and [version deltas](references/version-deltas.md) for syntax.
+4. Enforce rules and access on the server. Make every method handle multi-record recordsets and leave transaction control to the framework.
+5. Validate on a disposable database: install/update the module, run the business action as a non-admin user, check multi-company behavior, and run the relevant tests ([testing](references/testing-and-performance.md)). Report exactly what ran. A static review is not a runtime check.
+6. Deliver: target version/edition, the change, verification evidence, migration/deployment steps and remaining limits.
 
-These are engineering recommendations synthesized for this skill, not authorization to publish, deploy, charge for services, contact others or modify production data.
+## 3. Avoid the common mistakes
 
-## Read only the relevant references
+- **Wrong-version syntax.** On 19/20: no `attrs`/`states`, no `<tree>`, no `_sql_constraints` (19 silently ignores them), no `name_get`, no `type='json'` routes, no `read_group` dict API, no `check_access_rights`. On 20: no `ir.model.access.csv`/`ir.rule`, no `get_param`, no Owl 2 `static props`/`useState`, no `fa fa-*` icons. Full list: [version deltas](references/version-deltas.md).
+- Missing `_description`, a file not imported in `__init__.py`, or a data file missing from the manifest `data` list (or listed in the wrong order: groups → access → actions → views → menus).
+- New model or wizard without access rows, so it is invisible to everyone but the superuser.
+- Treating view `invisible`/`readonly`, menu `groups` or action domains as security. They only hide things; server access and `groups=` on fields enforce.
+- `sudo()` widening access beyond the case that needs it, or `browse(id)` from input without `exists()` plus an access check.
+- Business rules only in `@api.onchange`. Imports, RPC and code bypass onchange, so use constraints or `create`/`write` logic.
+- `self.ensure_one()` missing where a singleton is assumed, or a per-record `search()`/`write()` inside a loop (N+1 queries).
+- `cr.commit()` / `cr.rollback()` in business code. In crons, use `_commit_progress`.
+- Raw SQL without `SQL(...)` parameters, or without flush/invalidate around it.
+- `noupdate="1"` data that you then expect `-u` to refresh, or renaming XML IDs without a migration.
+- Tests relying on demo data (off by default on 19+), or only running as admin.
+- Copying Enterprise code into a custom addon, or picking a manifest `license` that conflicts with its dependencies.
+
+## 4. Read only the relevant reference
 
 | Task | Reference |
 | --- | --- |
-| Target detection, compatibility, conflicting documentation | [Version and discovery](references/version-and-discovery.md) |
-| Addons, manifests, models, ORM, data, constraints, mixins | [Backend](references/backend.md) |
-| `ir.access`, older ACLs/rules, roles, multi-company | [Security and companies](references/security-and-companies.md) |
+| Syntax/API differences 18→19→20, legacy patterns, `upgrade_code` | [Version deltas](references/version-deltas.md) |
+| Ready-to-adapt manifest, model, security, views, wizard, cron, controller, Owl, tests, migration | [Scaffolds](references/scaffolds.md) |
+| Target detection, conflicting documentation | [Version and discovery](references/version-and-discovery.md) |
+| Addons, ORM, data files, constraints, mixins, crons | [Backend](references/backend.md) |
+| `ir.access`, ACLs/rules, groups, multi-company | [Security and companies](references/security-and-companies.md) |
 | Views, actions, Owl, assets, QWeb, reports, website | [UI and frontend](references/ui-and-frontend.md) |
-| Python/JS/browser tests, debugging, profiling | [Testing and performance](references/testing-and-performance.md) |
-| Controllers, JSON-2, legacy RPC, webhooks, devices | [Integrations](references/integrations.md) |
-| Installation, configuration, Odoo.sh, deployment | [Installation and operations](references/installation-and-operations.md) |
-| Updates, schema/data migrations, major upgrades | [Upgrades and migrations](references/upgrades-and-migrations.md) |
-| Accounting, sales, stock/MRP, HR, services, Studio | [Functional workflows](references/functional-workflows.md) |
+| Python/JS/tour tests, debugging, profiling | [Testing and performance](references/testing-and-performance.md) |
+| Controllers, JSON-2, legacy RPC, webhooks, payments, IoT | [Integrations](references/integrations.md) |
+| Installation, CLI, Odoo.sh, deployment, neutralization | [Installation and operations](references/installation-and-operations.md) |
+| Module updates, migration scripts, major upgrades | [Upgrades and migrations](references/upgrades-and-migrations.md) |
+| Accounting, sales, stock/MRP, HR, POS, Studio, imports | [Functional workflows](references/functional-workflows.md) |
+| Core source, OCA, Docker, `scaffold`/`shell`, debug modes | [Ecosystem](references/ecosystem.md) |
 | Training, certification, white-paper fit analysis | [Learning and fit analysis](references/learning-and-fit-analysis.md) |
-| Licensing, Enterprise/custom code, privacy/contracts | [Legal and licensing](references/legal-and-licensing.md) |
-| Research coverage, provenance, gaps, refresh | [Sources and maintenance](references/sources.md) |
+| Licensing, Enterprise code, contracts, privacy | [Legal and licensing](references/legal-and-licensing.md) |
+| Research coverage, provenance, refresh procedure | [Sources and maintenance](references/sources.md) |
 
-Distinguish official API facts from recommended practice. References contain direct source links. [source-manifest.json](references/source-manifest.json) records retrieval results and hashes; [resource-catalog.json](references/resource-catalog.json) indexes discovered documentation links. Successful retrieval does not establish that every page or whole course was studied. See the coverage statement.
-
-For a read-only source check:
-
-```bash
-python3 scripts/check_sources.py --category developer --limit 10
-```
-
-This reports redirects, failures, HTML refreshes and content changes; it does not update knowledge automatically. Re-read changed sources before revising guidance. Verify current hosting capabilities, dependencies, API removal dates, certification rules and legal terms at time of use.
+[resource-catalog.json](references/resource-catalog.json) indexes about 1,000 official 20.0 documentation URLs by title. Search it to find the right page for a topic.

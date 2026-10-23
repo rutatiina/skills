@@ -1,0 +1,102 @@
+{
+  "skill_name": "odoo-development",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Odoo 19.0 Community, on-premise. In my custom module acme_sale, add a stored computed field `margin_percent` on sale.order (margin / amount_untaxed * 100) and show it as a column in the quotations list view with an average at the bottom.",
+      "expected_output": "A sale.order _inherit with a correct @api.depends compute that handles zero amounts, an inherited list view using <list>/xpath with avg=, and a manifest dependency on sale_margin.",
+      "expectations": [
+        "Uses _inherit = 'sale.order' without redefining _name",
+        "Compute loops over self, assigns every record and guards division by zero",
+        "@api.depends lists margin and amount_untaxed",
+        "View inheritance uses inherit_id + xpath on a field name, and the list arch is <list>-based (no <tree>)",
+        "Manifest depends includes sale_margin (the module that defines margin)",
+        "Uses aggregator= (not group_operator=) if a field aggregator is set"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Odoo 20.0. Write the security for a new model `acme.case`: regular users (group acme_case.group_case_user) can read/create/update only cases where they are the assigned user; managers (acme_case.group_case_manager) can do everything; and records must be restricted to the user's allowed companies.",
+      "expected_output": "A security/ir.access.csv using the 20.0 format with group rows carrying domains and a blank-group global multi-company row, plus res.groups / res.groups.privilege XML.",
+      "expectations": [
+        "Uses ir.access.csv with header id,name,model_id,group_id/id,operation,domain",
+        "Does NOT produce ir.model.access.csv or ir.rule records",
+        "model_id column holds the model name acme.case",
+        "User row uses operation 'cru' with a domain on user_id = user.id",
+        "Multi-company restriction is a blank-group row with a company_ids domain",
+        "Groups use res.groups.privilege / privilege_id rather than category_id"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Port this Odoo 16 view to Odoo 19.0:\n<record id=\"view_task_tree_acme\" model=\"ir.ui.view\"><field name=\"model\">project.task</field><field name=\"inherit_id\" ref=\"project.view_task_tree2\"/><field name=\"arch\" type=\"xml\"><xpath expr=\"//field[@name='name']\" position=\"after\"><field name=\"x_urgent\" attrs=\"{'invisible': [('stage_id.fold', '=', True)], 'readonly': [('state', 'in', ['done'])]}\"/></xpath></field></record>",
+      "expected_output": "The record rewritten with Python-expression modifiers, a check that the referenced parent view ID still exists in 19.0, and a note on fields needed by the expressions.",
+      "expectations": [
+        "Removes attrs and uses invisible= / readonly= Python expressions",
+        "Does not keep any attrs= or states= attribute",
+        "Flags that the parent view XML ID and the task state values must be checked in 19.0 source",
+        "Mentions that fields used in modifiers must be available in the view (or uses a non-dotted alternative)"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Write a Python script that reads all companies (is_company = True) from an Odoo 19.0 database over the external API, 100 at a time, and prints their name and VAT. Credentials come from environment variables.",
+      "expected_output": "A JSON-2 client using POST /json/2/res.partner/search_read with bearer API key, pagination, timeouts and no secret printing.",
+      "expectations": [
+        "Uses the JSON-2 endpoint /json/2/<model>/<method> rather than XML-RPC",
+        "Sends Authorization: bearer <api key> and optionally X-Odoo-Database",
+        "Passes named arguments (domain, fields, limit, offset) in a JSON body",
+        "Paginates with limit/offset and sets an HTTP timeout",
+        "Reads credentials from the environment and never prints the key"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Odoo 20.0: add a daily scheduled action to my module acme_case that archives cases with state 'done' older than 180 days. There can be hundreds of thousands of them. The retention period should be a configurable system parameter.",
+      "expected_output": "An ir.cron XML record in noupdate data and a batched cron method that uses _commit_progress and the 20.0 typed config parameter API.",
+      "expectations": [
+        "Cron method processes a bounded batch and calls self.env['ir.cron']._commit_progress(...) with remaining",
+        "Does not call cr.commit() directly",
+        "Reads the parameter with get_int (20.0 API), not get_param",
+        "ir.cron record uses model_id ref, state code, code model._method(), interval fields",
+        "Cron data is placed in noupdate data"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Odoo 19.0: I added `_sql_constraints = [('ref_uniq', 'unique(ref)', 'Reference must be unique')]` to my acme.case model but duplicates are still being saved. Why?",
+      "expected_output": "Explains that 19.0 ignores _sql_constraints (logs a warning) and shows the models.Constraint replacement, plus cleaning existing duplicates before the constraint can be created.",
+      "expectations": [
+        "Identifies that _sql_constraints is no longer supported in 19.0 and only logs a warning",
+        "Provides _ref_uniq = models.Constraint('unique(ref)', '...')",
+        "Mentions existing duplicate rows must be cleaned for the constraint to be created",
+        "Mentions updating the module (-u) to apply it"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Odoo 20.0: create a custom field widget `acme_priority_stars` for an integer field that renders 0-3 stars and lets the user click to set the value.",
+      "expected_output": "An Owl 3 component using useProps with standardFieldProps, proxy/record.update, a template using this.-prefixed expressions, registry registration and asset bundle entry.",
+      "expectations": [
+        "Uses props = useProps({...standardFieldProps}) rather than static props",
+        "Does not use useState (uses proxy or record data)",
+        "Template accesses component members through this. (e.g. this.props.record)",
+        "Registers the widget in registry.category('fields') with supportedTypes ['integer']",
+        "Adds the files to web.assets_backend in the manifest",
+        "Does not use fa fa-star Font Awesome classes (uses the 20.0 icon system or a neutral alternative)"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Odoo 19.0: in version 1.1.0 of my module acme_case I rename the field `hours` to `hours_total` on acme.case. Make sure existing databases keep their data when they update.",
+      "expected_output": "A manifest version bump and an upgrades/<version>/pre-migrate.py using odoo.upgrade.util.rename_field, with notes on when scripts run.",
+      "expectations": [
+        "Bumps the manifest version (e.g. 19.0.1.1.0)",
+        "Places the script under upgrades/ or migrations/ with the matching version folder",
+        "Uses a pre- script with migrate(cr, version)",
+        "Uses util.rename_field (or equivalent handling of column + ir_model_fields + references)",
+        "States that scripts run on module update, not on fresh install"
+      ]
+    }
+  ]
+}

@@ -2,38 +2,41 @@
 
 ## Inspect the project
 
-Recommended commands, adapting paths:
-
 ```bash
-rg --files -g AGENTS.md -g __manifest__.py -g release.py -g requirements.txt -g '*odoo*.conf' -g '*compose*.yml'
-python3 /path/to/odoo/odoo-bin --version
-python3 /path/to/odoo/odoo-bin --help
+rg --files -g AGENTS.md -g CLAUDE.md -g __manifest__.py -g release.py -g requirements.txt -g '*odoo*.conf' -g '*compose*.y*ml' -g Dockerfile
+python3 /path/to/odoo/odoo-bin --version            # or: docker compose run --rm odoo odoo --version
+rg -n "version_info|serie" /path/to/odoo/odoo/release.py
 ```
 
-If dependencies are unavailable, read release files as text. Inspect source revision, image tags, service configuration, addon paths, CI and tests. Avoid exposing secrets. Separate confirmed facts from assumptions. This workspace initially contained no Odoo server or target version; the skill intentionally sets none.
+- A custom module's manifest `version` (`19.0.1.2.0`) is a hint, not proof. Check the actual server checkout, image tag or Odoo.sh branch version.
+- Enterprise is present when the addons path includes an `enterprise` checkout (e.g. `web_studio`, `account_accountant`).
+- Online runs intermediary releases (`19.1`–`19.4`, …) that on-premise never gets. A feature that exists in "19.x Online" may not exist in 19.0.
+- Separate confirmed facts from assumptions in your report. Don't print secrets from config files.
 
-Use fixed version URLs during implementation. `latest` and `master` move, and Online intermediary versions differ from on-premise majors. An Online 19.x change does not automatically exist in 19.0.
+Use fixed version URLs during implementation (`/documentation/19.0/...`). `latest` and `master` move.
 
 Sources: [documentation home](https://www.odoo.com/documentation/20.0/), [CLI](https://www.odoo.com/documentation/20.0/developer/reference/cli.html), [hosting](https://www.odoo.com/documentation/20.0/administration/hosting.html).
 
 ## Compatibility boundaries
 
-| Area | Researched difference | Consequence |
-| --- | --- | --- |
-| Dependencies | 19.0: Python 3.10+, PostgreSQL 13+. 20.0: Python 3.12+, PostgreSQL 16+ | Use target requirements and OS instructions; check optional AI/vector dependencies separately. |
-| Security | 19.0: `ir.model.access` and `ir.rule`. 20.0: unified `ir.access` | Select matching CSV headers, models and permission semantics. |
-| Test defaults | 18.0: `standard, at_install`. 20.0: `standard, post_install` | Inspect target tags and runner behavior. |
-| JSON routes | Through 18: `type='json'`; newer releases: `type='jsonrpc'` | Match route options; distinguish controllers from legacy external RPC endpoints. |
-| Views | Modern versions use direct modifier expressions and `<list>` | Check target schema before porting `attrs`, `states`, `<tree>` or kanban templates. |
-| External API | JSON-2 starts in 19.0 | Prefer it for compatible new integrations; isolate older adapters. |
-| ORM internals | Domain, constraints/index declarations and binary representation evolve | Read the complete source-to-target changelog before porting. |
+See [version deltas](version-deltas.md) for the full 18 → 19 → 20 tables, the legacy-syntax blacklist and the `upgrade_code` rewrites. The most consequential boundaries:
 
-Sources: [19 installation](https://www.odoo.com/documentation/19.0/administration/on_premise/source.html), [20 installation](https://www.odoo.com/documentation/20.0/administration/on_premise/source.html), [19 security](https://www.odoo.com/documentation/19.0/developer/reference/backend/security.html), [20 security](https://www.odoo.com/documentation/20.0/developer/reference/backend/security.html), [18 tests](https://www.odoo.com/documentation/18.0/developer/reference/backend/testing.html), [20 tests](https://www.odoo.com/documentation/20.0/developer/reference/backend/testing.html), [view architectures](https://www.odoo.com/documentation/20.0/developer/reference/user_interface/view_architectures.html), [ORM changelog](https://www.odoo.com/documentation/20.0/developer/reference/backend/orm/changelog.html).
+| Area | 19.0 | 20.0 |
+| --- | --- | --- |
+| Security | `ir.model.access.csv` + `ir.rule` | `ir.access.csv` (blank group = global restriction) |
+| Frontend | Owl 2 (`static props`, `useState`) | Owl 3 (`useProps`, `proxy`, `this.` in templates) |
+| Config params | `get_param`/`set_param` | typed `get_str/int/bool/float`, `set_*` |
+| Test default | `at_install` | `post_install` |
+| Runtime | Python 3.10+, PostgreSQL 13+ | Python 3.12+, PostgreSQL 16+ |
 
 ## Resolve conflicting evidence
 
-The 20.0 source-install page retains a Python 3.10 note although its requirement/change note specifies 3.12. The 20.0 licensing page still labels its current edition sections “Odoo 19.” Verify target source and license when such inconsistencies matter.
+Known documentation inconsistencies at 20.0 (checked 2026-10-23):
 
-The changelog records security consolidation in Online 19.4, binary/BinaryValue changes across 19.2–20.0 and removal of `_table_query` in 20.0. Check linked source changes before reusing old base64 or SQL-view recipes. Do not assume the documentation's older example matches a newer implementation.
+- The testing page states both `standard, at_install` and `standard, post_install` as defaults. Core `odoo/tests/common.py` uses `post_install` on 20.0 and `at_install` on 19.0.
+- The custom-report how-to still shows `_table_query`, which the changelog removed. Core report models use `_table_sql` instead.
+- The source-install page keeps a Python 3.10 note next to its 3.12 requirement.
+- The licensing page still labels the current edition sections "Odoo 19".
+- Owl 3, Material Symbols icons and the typed config-parameter API appear in the code and changelog/`upgrade_code` scripts, but the reference pages explain them poorly. Trust the source.
 
-Confirm checked-out and deployed revisions first. Use actual source to identify available behavior, tests to establish contracts, and report consequential discrepancies. Build compatibility layers only for identified supported versions.
+Rule: check-out source > core tests > changelog > reference docs > tutorials > forum or model memory. Report any discrepancy that matters. Build compatibility layers only for versions you have confirmed you support.

@@ -4,7 +4,9 @@
 
 Use model tests for business invariants and permissions, HTTP/browser tests for routing and actual user flows, and JavaScript tests for frontend state/rendering. For meaningful addon logic or migrations, validate fresh installation and update against representative existing data. Do not add tests that merely restate a trivial static edit.
 
-Current `TransactionCase` runs methods with savepoint isolation and rolls back the enclosing transaction. Reuse expensive fixtures through `setUpClass`. Import tests from `tests/__init__.py`; test methods start with `test_`. Use `with_user()` and company context for role-bound behavior. `Form` can exercise defaults/onchanges but does not replace browser verification. `HttpCase` supports browser flows. Current docs default tests to `standard, post_install`; older defaults differ. Clean up registry changes when tests add models/fields.
+`TransactionCase` runs all methods in one transaction, gives each method its own savepoint, and never commits. Build expensive fixtures in `setUpClass`. Import test modules from `tests/__init__.py`; test methods start with `test_`. Create role-bound users with `odoo.tests.common.new_test_user(env, login=..., groups='mod.group_x')` and act through `with_user()` and `with_company()`. `odoo.tests.Form` exercises defaults/onchanges/view modifiers server-side. `HttpCase` + `self.start_tour(url, 'tour_name', login=...)` runs browser tours and must be `post_install`. `self.assertQueryCount(N)` locks a performance contract.
+
+Default tags differ by version: **19.0 `standard, at_install`; 20.0 `standard, post_install`** (from core `odoo/tests/common.py`; the 20.0 docs contradict themselves). Use `@tagged('post_install', '-at_install')` or the reverse explicitly whenever it matters. `--test-tags` syntax: `[-][tag][/module][:class][.method]`, e.g. `/acme_case:TestAcmeCase.test_start_only_from_new`. Demo data is not loaded by default on 19+ (`--with-demo` loads it), so tests must create their own fixtures. Clean up registry changes when tests add models/fields.
 
 Source: [Python testing reference](https://www.odoo.com/documentation/20.0/developer/reference/backend/testing.html).
 
@@ -21,7 +23,7 @@ Sources: [CLI testing options](https://www.odoo.com/documentation/20.0/developer
 
 ## Frontend tests
 
-Current Odoo uses HOOT, web test helpers and a mock server. Put tests under `static/tests`, name executable tests `*.test.js`, include them in `web.assets_unit_tests`, and run the relevant `/web/tests` suite. `.hoot.js` files are shared global modules with different lifecycle constraints. Older branches may use QUnit; preserve the target runner.
+Current Odoo uses HOOT, web test helpers and a mock server. Put tests under `static/tests`, name executable tests `*.test.js`, include them in `web.assets_unit_tests`, and run them in the browser at `/web/tests` or headless from the CLI. Headless runs need Chrome/Chromium plus the `websocket-client` package, otherwise they are skipped without an error. On 20.0, `--test-tags /my_module` includes the module's HOOT tests. On 19.0, use `--test-tags '/my_module,/web:WebSuite.test_unit_desktop[@my_module]'`. If the addon depends on `mail`, call `defineMailModels()` from `@mail/../tests/mail_test_helpers`, or mail's services fail on missing mock models such as `discuss.channel`. `.hoot.js` files are shared global modules with different lifecycle constraints. Older branches may use QUnit; preserve the target runner.
 
 Source: [JavaScript unit testing](https://www.odoo.com/documentation/20.0/developer/reference/frontend/unit_testing.html).
 
@@ -43,6 +45,6 @@ Use representative volumes and measure with the target profiler. SQL and periodi
 
 Source: [performance](https://www.odoo.com/documentation/20.0/developer/reference/backend/performance.html).
 
-For reproducible volume data, inspect the target populate interface: Odoo 20 introduces a populate-script/blueprint approach, so older `_populate` recipes are version-sensitive. Do not benchmark against confidential production data when a generated representative dataset suffices.
+For reproducible volume data, inspect the target populate interface. 19.0 has `odoo-bin populate`; 20.0 removes that command in favor of a populate script with blueprints, so older `_populate` recipes are version-sensitive. Do not benchmark against confidential production data when a generated representative dataset suffices.
 
 Source: [populate](https://www.odoo.com/documentation/20.0/developer/reference/backend/populate.html).
